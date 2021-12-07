@@ -5,7 +5,7 @@ has_children: true
 nav_order: 2
 ---
 
-# VoteAmerica Tool Embeds
+# Tool Embeds
 
 All VoteAmerica tools can be embedded in other websites with a short snippet of code. This will load our tool asynchronously via Javascript into a div with the class `voteamerica-embed`. This will not block rendering of the parent page, and the iframe will check the URL of the parent page for [tracking URL arguments](/embed/tracking/).
 

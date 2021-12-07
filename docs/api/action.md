@@ -5,7 +5,7 @@ parent: API
 nav_order: 2
 ---
 
-# VoteAmerica Action API
+# Action API
 ​
 This API allows third-party partners to complete part of the voter registration
 flow via API.

@@ -28,6 +28,8 @@ url: "https://docs.voteamerica.com" # the base hostname & protocol for your site
 remote_theme: pmarsceill/just-the-docs
 search_enabled: false
 # logo: "/docs/assets/images/logo.png"
+footer_content: "Copyright &copy; VoteAmerica"
+
 
 plugins:
   - jekyll-remote-theme
