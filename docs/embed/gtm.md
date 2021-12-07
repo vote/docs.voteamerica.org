@@ -1,3 +1,10 @@
+---
+layout: default
+title: Events and Google Tag Manager
+parent: Tool Embeds
+nav_order: 4
+---
+
 # Events and Google Tag Manager
 
 VoteAmerica uses JavaScript event tracking and we pass these events up to the parent window of embeds.

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tool Admin
+has_children: true
+nav_order: 1
+---
+
 # Tool Admin
 
 If you are a VoteAmerica tools subscriber, you will get an invitation to create an admin login by email. Click the link to set your password and 2-factor authentication method.

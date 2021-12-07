@@ -1,1 +1,0 @@
-# VoteAmerica API Documentation

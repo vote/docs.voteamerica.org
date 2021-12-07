@@ -1,3 +1,10 @@
+---
+layout: default
+title: Source Tracking
+parent: Tool Embeds
+nav_order: 5
+---
+
 # Tracking URL Arguments
 
 All standard UTM parameters, as well as `source`, can be used to track campaign performance, differentiate traffic from different sources, and determine conversion events.

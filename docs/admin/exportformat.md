@@ -1,3 +1,10 @@
+---
+layout: default
+title: Export Format
+parent: Tool Admin
+nav_order: 2
+---
+
 # Export File Format
 
 This document contains the column names and descriptions for available exports from the administrative interface of VoteAmerica's toolset.

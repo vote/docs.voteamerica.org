@@ -1,3 +1,10 @@
+---
+layout: default
+title: WordPress
+parent: Tool Embeds
+nav_order: 6
+---
+
 # VoteAmerica Tool Embeds and WordPress
 
 WordPress is a widely used content management system for organizations and companies large and small. VoteAmerica Tool embeds are compatible with all modern versions of WordPress.

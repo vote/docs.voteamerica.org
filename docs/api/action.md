@@ -1,3 +1,10 @@
+---
+layout: default
+title: Action API
+parent: API
+nav_order: 2
+---
+
 # VoteAmerica Action API
 ​
 This API allows third-party partners to complete part of the voter registration
