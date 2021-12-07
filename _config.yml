@@ -29,6 +29,9 @@ remote_theme: pmarsceill/just-the-docs
 search_enabled: false
 # logo: "/docs/assets/images/logo.png"
 
+plugins:
+  - jekyll-remote-theme
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
