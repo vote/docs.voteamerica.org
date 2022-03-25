@@ -1,3 +1,10 @@
+---
+layout: default
+title: Election Information API
+parent: API
+nav_order: 3
+---
+
 # Election Information API
 
 The Election Information API powers the VoteAmerica website and suite of tools.
