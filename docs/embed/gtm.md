@@ -12,7 +12,7 @@ VoteAmerica uses JavaScript event tracking and we pass these events up to the pa
 These events are These events can be consumed by the parent window with a little bit of JavaScript. These events have a type of `VoteAmericaEvent` and can be listened for using the following JavaScript snippet.
 
 ```js
-window.addEventListener('VoteAmericaEvent', function(evt) {
+window.addEventListener("VoteAmericaEvent", function (evt) {
   console.log(evt); // This can be replaced with any function
 });
 ```
@@ -23,7 +23,7 @@ window.addEventListener('VoteAmericaEvent', function(evt) {
 
 ```js
 window.dataLayer = window.dataLayer || [];
-window.addEventListener('VoteAmericaEvent', function(evt) {
+window.addEventListener("VoteAmericaEvent", function (evt) {
   dataLayer.push(evt.detail.data);
 });
 ```
@@ -32,7 +32,7 @@ Once the events are sent to GTM, you'll need to set up triggers for your tags th
 
 ## VoteAmerica Events
 
-Here's a list of events provided by VoteAmerica. Some events have variable parameters, such as a state or url. Those variable parameters are denoted using double braces. Here is an example `{{ state }}`.
+Here's a list of events provided by VoteAmerica. Some events have variable parameters, such as a state or url. Those variable parameters are denoted with square brackets, such as `[STATE]`.
 
 ### Verify Tool
 
@@ -40,38 +40,39 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-finish',
   tool: 'verify',
-  state: {{ state }},
+  state: '[STATE]',
 }
 ```
+
 ### Register
 
 ```js
 {
   event: 'action-start',
   tool: 'register',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'external',
   tool: 'register',
-  url: {{ external url }},
-  state: {{ state }},
+  url: '[EXTERNAL URL]',
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'pdf',
   tool: 'register',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'pdf-forward',
   tool: 'register',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
@@ -87,58 +88,58 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-start',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'pdf',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'external',
   tool: 'absentee',
-  url: {{ external link }},
-  state: {{ state }},
+  url: '[EXTERNAL LINK]',
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'external-confirmed',
   tool: 'absentee',
-  url: {{ external link }},
-  state: {{ state }},
+  url: '[EXTERNAL LINK]',
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'fax',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'email',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'pdf',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
   event: 'action-finish',
   method: 'pdf-forward',
   tool: 'absentee',
-  state: {{ state }},
+  state: '[STATE]',
 }
 
 {
@@ -159,7 +160,7 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-finish',
   tool: 'leo',
-  state: {{ state }},
+  state: '[STATE]',
 }
 ```
 
@@ -169,6 +170,6 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-finish',
   tool: 'locator',
-  state: {{ state }},
+  state: '[STATE]',
 }
 ```
