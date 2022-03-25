@@ -4,24 +4,24 @@ title: API
 has_children: true
 nav_order: 3
 ---
-API access requires a paid account to get an API key. You can [learn more and sign up for an account here](https://www.readysetvote.io/).
 
-# [Election Information API](election/)
+# VoteAmerica APIs
 
-For getting region-specific information about upcoming elections
+API access requires a paid account to get an API key. Please contact sales@readysetvote.io to learn more.
 
-# [Action API](action/)
 
-For learning about the actions a voter has taken
+### [Election Information API](election/)
+This API provides 80+ data points of election laws per state. It covers everything from the voter registration rules, to absentee ballot deadlines, to what forms of ID are acceptable when you vote on Election Day.  You can learn more about the available data fields here: https://www.voteamerica.com/election-data-api-fields/
 
-# Registration API
+### [Action API](action/)
+
+For learning about the actions a voter has taken via your instance of the VoteAmerica toolset.
+
+### Registration API
 
 For registering voters. Docs coming soon.
 
-# Locate API
+### Absentee API
 
-For locating your polling place. Docs coming soon.
+For helping voters request their absentee ballots so they can vote by mail.  Docs coming soon.
 
-# Verify API
-
-For checking one's registration information. Docs coming soon.
