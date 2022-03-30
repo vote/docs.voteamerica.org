@@ -59,14 +59,11 @@ documentation, we are using TypeScript notation for the data types. In
 particular, a `?` after an object key indicates that that field is optional.
 Otherwise, the field is required.
 
-The base URL is `https://api.voteamerica.com` (or
-`https://api-staging.voteamerica.com` for staging). As part of the partnership
+The base URL is `https://api.voteamerica.com`. As part of the partnership
 process, you will provide us with your IPs and we will whitelist those IPs so
 they are not subject to our normal rate-limits. Access to `POST` endpoints
 will also be restricted on production so that you can ONLY make requests to
-that endpoint from your whitelisted IPs (you can make requests to `api-staging.voteamerica.com`
-from any IP; this restriction only applies to the production `api.voteamerica.com`
-hostname).
+that endpoint from your whitelisted IPs.
 
 All requests MUST be sent over HTTPS.
 
