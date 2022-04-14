@@ -52,7 +52,7 @@ Body: the fields from the first page of register:
     "day_of_birth": 23,
     "zipcode": "02108",
     "phone": "+16174567890",
-    "sms_opt_in": True,
+    "sms_opt_in": true,
     "sms_opt_in_subscriber": true,
     "us_citizen": true,
     "is_18_or_over": true,
