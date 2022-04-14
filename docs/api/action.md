@@ -6,9 +6,8 @@ nav_order: 2
 ---
 
 # Action API
-​
-This API allows third-party partners to complete part of the voter registration
-flow via API.
+
+This API allows third-party partners to track the engagement of the voters via API.
 
 **This API is not available publicly. It is available to select partners who
 work closely with us to make sure their usage of the API is compliant**. If
@@ -16,7 +15,7 @@ you're interested in this sort of integration, email
 [partner@voteamerica.com](mailto:partner@voteamerica.com).
 
 ## Overview
-​
+
 The general flow is:
 
 1. The partner sends a `POST` to `/v1/registration/external/request` with the
@@ -32,9 +31,9 @@ The general flow is:
 3. When a user clicks on a button that takes them to a state voter registration
    website, you MUST follow up with a `POST` to `/v1/event/track` to let
    VoteAmerica know that the user followed that link.
-​
+
 ## Important Notes
-​
+
 Contact information sent to VoteAmerica will be used for our GOTV and ballot
 chase programs. You must have permission from the user to share their
 information with VoteAmerica. Submitting the `POST ` to
@@ -51,9 +50,9 @@ cell phone number, you agree to receive occasional text messages from
 VoteAmerica. Message and data rates may apply. Message frequency varies. Text
 STOP to cancel and HELP for more info.
 ```
-​
+
 ## API Endpoints
-​
+
 There are two endpoints in the Action API. For the purposes of this
 documentation, we are using TypeScript notation for the data types. In
 particular, a `?` after an object key indicates that that field is optional.
@@ -118,7 +117,7 @@ Body: the fields from the first page of register:
 ```
 
 All strings that do not have specific validation requirements have a maximum
-ength of 256 UTF-8 characters.
+length of 256 UTF-8 characters.
 
 200 Response format:
 
