@@ -16,12 +16,3 @@ This API provides 80+ data points of election laws per state. It covers everythi
 ### [Action API](action/)
 
 For learning about the actions a voter has taken via your instance of the VoteAmerica toolset.
-
-### Registration API
-
-For registering voters. Docs coming soon.
-
-### Absentee API
-
-For helping voters request their absentee ballots so they can vote by mail.  Docs coming soon.
-
