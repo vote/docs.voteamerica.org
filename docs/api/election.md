@@ -1,21 +1,19 @@
 ---
 layout: default
 title: Election Information API
-parent: API
 nav_order: 3
 ---
 
 # Election Information API
 
-The Election Information API powers the VoteAmerica website and suite of tools.
+The Election Information It contains approximately 100 points of data per state.  This information is surfaced on the VoteAmerica website and within varius tool workflows. You can see all of the fields currently available on this page: https://www.voteamerica.com/election-data-api-fields/
 
-This API is available as part of the VoteAmerica premium tools. You can [learn more about our premium tools here](https://www.readysetvote.io/).
+We license access to this data on both a monthly an annual basis. If you are interested in an API key, please contact sales@voteamerica.com
 
 This data has been gathered and vetted by our research staff, but if you see an error please [report it](https://www.voteamerica.com/report-incorrect-info/).
 
 The API base URL is `https://api.voteamerica.com/v1/`. For example, you can try running `curl https://api.voteamerica.com/v1/election/field/`.
 
-You will need to create an API key. You can do this from your [Ready Set Vote dashboard](https://dashboard.readysetvote.io/manage/).
 
 ## GET `/election/field/`
 
