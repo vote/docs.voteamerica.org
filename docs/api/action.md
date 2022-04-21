@@ -1,18 +1,12 @@
 ---
 layout: default
-title: Action API
-parent: API
+title: Action API - Deprecated
 nav_order: 2
 ---
 
 # Action API
 
-This API allows third-party partners to track the engagement of the voters via API.
-
-**This API is not available publicly. It is available to select partners who
-work closely with us to make sure their usage of the API is compliant**. If
-you're interested in this sort of integration, email
-[partner@voteamerica.com](mailto:partner@voteamerica.com).
+**This API has been deprecated and is no longer available.**  
 
 ## Overview
 
