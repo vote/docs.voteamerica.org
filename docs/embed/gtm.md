@@ -41,6 +41,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   event: 'action-finish',
   tool: 'verify',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'    
 }
 ```
 
@@ -50,7 +54,11 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-start',
   tool: 'register',
-  state: '[STATE]',
+  state: '[STATE]', 
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'      
 }
 
 {
@@ -59,6 +67,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   tool: 'register',
   url: '[EXTERNAL URL]',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -66,6 +78,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   method: 'pdf',
   tool: 'register',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'   
 }
 
 {
@@ -73,6 +89,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   method: 'pdf-forward',
   tool: 'register',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -89,6 +109,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   event: 'action-start',
   tool: 'absentee',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -96,6 +120,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   method: 'pdf',
   tool: 'absentee',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -104,6 +132,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   tool: 'absentee',
   url: '[EXTERNAL LINK]',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -112,6 +144,10 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
   tool: 'absentee',
   url: '[EXTERNAL LINK]',
   state: '[STATE]',
+  first_name: '[FIRST NAME]',
+  last_name: '[LAST NAME]',
+  email: '[EMAIL]',
+  zipcode: '[ZIP CODE]'
 }
 
 {
@@ -124,13 +160,6 @@ Here's a list of events provided by VoteAmerica. Some events have variable param
 {
   event: 'action-finish',
   method: 'email',
-  tool: 'absentee',
-  state: '[STATE]',
-}
-
-{
-  event: 'action-finish',
-  method: 'pdf',
   tool: 'absentee',
   state: '[STATE]',
 }
