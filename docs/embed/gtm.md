@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Integrations: Google Tag Manager
+title: Integrations - Google Tag Manager
 parent: Tool Embeds
 nav_order: 5
 ---
