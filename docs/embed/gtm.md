@@ -18,4 +18,4 @@ window.addEventListener("VoteAmericaEvent", function (evt) {
 
 Once the events are sent to GTM, you'll need to set up triggers for your tags there. [Google has documentation on that here.](https://support.google.com/tagmanager/answer/6106716?hl=en)
 
-See [JavaScript Events](events) for more details on the types of events and the data contained in each event.
+See [JavaScript Events](../events) for more details on the types of events and the data contained in each event.
