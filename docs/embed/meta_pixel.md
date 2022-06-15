@@ -1,0 +1,18 @@
+---
+layout: default
+title: Meta/Facebook Pixel Tracking
+parent: Tool Embeds
+nav_order: 3
+---
+
+# Using Meta/Facebook Pixel Tracking
+
+[Meta Pixel](https://developers.facebook.com/docs/meta-pixel) is a system from Facebook (Meta) that allows you to track conversions. If you have Meta Pixel installed on your website, you can send the VoteAmerica events to Meta Pixel using the following JavaScript snippet.
+
+```js
+window.addEventListener('VoteAmericaEvent', function(evt) {
+  fbq('track', `${evt.detail.data.tool} - ${evt.detail.data.event}`, evt.detail.data);
+});
+```
+
+You can read more about [conversion tracking in Meta's documentation](https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking)
