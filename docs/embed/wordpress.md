@@ -1,8 +1,8 @@
 ---
 layout: default
-title: WordPress
+title: Integrations: WordPress
 parent: Tool Embeds
-nav_order: 6
+nav_order: 7
 ---
 
 # Tool Embeds and WordPress

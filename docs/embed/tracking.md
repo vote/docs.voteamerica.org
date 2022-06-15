@@ -2,7 +2,7 @@
 layout: default
 title: Source Tracking
 parent: Tool Embeds
-nav_order: 5
+nav_order: 3
 ---
 
 # Tracking URL Arguments

@@ -2,7 +2,7 @@
 layout: default
 title: Free Embed Code
 parent: Tool Embeds
-nav_order: 2
+nav_order: 1
 ---
 
 # Free Tools Embed Code
