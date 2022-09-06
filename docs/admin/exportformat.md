@@ -36,7 +36,6 @@ As not every state has the same field requirements, not every method of completi
 |Mailing City|The user's mailing city|
 |Mailing State|The user's mailing state|
 |Mailing Zipcode|The user's mailing zipcode|
-|VoteAmerica SMS Opt In|True/False if the user has selected to opt-in to VoteAmerica's SMS list (always True)|
 |Subscriber SMS Opt In|True/False if the user has selected to opt-in to the subscriber's SMS list|
 |Completed|If the user has (1) clicked a link to visit their state's online ballot request portal, (2) had their ballot request submitted to their Local Election Official, and/or (3) emailed themselves a ballot request form and downloaded it at least once|
 |PDF Emailed to Voter|If the user has emailed themselves a printable customized ballot request form|
@@ -73,8 +72,6 @@ As not every state has the same field requirements, not every method of completi
 |Date of Birth|The user's date of birth|
 |Gender|The user's gender|
 |Race-Ethnicity|The user's race-ethnicity|
-|US Citizen|True/False if the user indicated they are a US Citizen (should always be True)|
-|Party|The user's selected political party|
 |Email|The user's email address|
 |Phone|The user's phone number|
 |Address 1|The user's address1|
@@ -92,7 +89,6 @@ As not every state has the same field requirements, not every method of completi
 |Mailing City|The user's mailing city|
 |Mailing State|The user's mailing state|
 |Mailing Zipcode|The user's mailing zipcode|
-|VoteAmerica SMS Opt In|True/False if the user has selected to opt-in to VoteAmerica's SMS list (always True)|
 |Subscriber SMS Opt In|True/False if the user has selected to opt-in to the subscriber's SMS list|
 |Completed|If the user has (1) clicked a link to visit their state's online registration portal, (2) had their registration submitted to their Local Election Official, and/or (3) emailed themselves a registration form and downloaded it at least once|
 |PDF Emailed to Voter|If the user has emailed themselves a printable registration form|
@@ -128,7 +124,6 @@ As not every state has the same field requirements, not every method of completi
 |City|The user's city|
 |Zipcode|The user's zipcode|
 |State|The user's state|
-|VoteAmerica SMS Opt In|True/False if the user opted into VoteAmerica's SMS list (always True)|
 |Subscriber SMS Opt In|True/False if the user opted into the subscriber's SMS list|
 |Registered|True/False if VoteAmerica's data provider indicated that the user has an active registration|
 |source|The ?source= query param|
