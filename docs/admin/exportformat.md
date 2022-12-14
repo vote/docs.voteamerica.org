@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Export Format
-parent: Tool Admin
+parent: Embed
 nav_order: 2
 ---
 
