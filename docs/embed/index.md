@@ -11,6 +11,8 @@ All VoteAmerica tools can be embedded in other websites with a short snippet of 
 
 The tools have minimal branding, and the fonts and color scheme should work with any website design.
 
-For users who do not need access to the information collected by the tools, you can use our [free embed code](https://www.voteamerica.com/embeds/). For users who want the information collected in the tools, you can visit [https://www.readysetvote.io/](https://www.readysetvote.io/) for more information.
+The VoteAmerica tools are free for anyone to use.  [You'll find the embed code here](https://www.voteamerica.com/embeds/).  
 
-Existing Ready Set Vote subscribers can access their custom embed code at [https://dashboard.readysetvote.io/](https://dashboard.readysetvote.io/).
+If you'd like access to the information gathered via an instance of the tools, you'll need a paid subscription.  Please contact [sales@voteamerica.com] to discuss pricing.
+
+Existing subscribers can login to their dashboard at [https://dashboard.readysetvote.io/](https://dashboard.readysetvote.io/).
