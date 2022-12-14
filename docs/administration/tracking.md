@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Source Tracking
-parent: Tool Embeds
+parent: Administration
 nav_order: 3
 ---
 

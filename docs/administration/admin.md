@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Tool Admin
-has_children: true
-nav_order: 2
+parent: Administration
+nav_order: 5
 ---
 
 # Tool Admin

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Free Embed Code
-parent: Tool Embeds
+parent: Administration
 nav_order: 1
 ---
 

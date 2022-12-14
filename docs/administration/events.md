@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JavaScript Events
-parent: Tool Embeds
+parent: Administration
 nav_order: 4
 ---
 

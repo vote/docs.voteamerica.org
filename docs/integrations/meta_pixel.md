@@ -2,7 +2,7 @@
 layout: default
 title: Facebook Pixel Tracking
 parent: Integrations
-nav_order: 6
+nav_order: 7
 ---
 
 # Using Meta/Facebook Pixel Tracking

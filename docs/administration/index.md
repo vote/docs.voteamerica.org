@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tool Embeds
+title: Administration
 has_children: true
 nav_order: 2
 ---
