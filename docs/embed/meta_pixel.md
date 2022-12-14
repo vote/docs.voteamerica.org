@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Integrations - Meta/Facebook Pixel Tracking
-parent: Tool Embeds
+title: Facebook Pixel Tracking
+parent: Integrations
 nav_order: 6
 ---
 
