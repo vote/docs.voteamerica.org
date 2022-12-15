@@ -7,11 +7,15 @@ parent: API
 
 # Election Information API
 
-The Election Information It contains approximately 100 points of data per state.  This information is surfaced on the VoteAmerica website and within varius tool workflows. You can see all of the fields currently available on this page: https://www.voteamerica.com/election-data-api-fields/
 
-We license access to this data on both a monthly an annual basis. If you are interested in an API key, please contact [sales@voteamerica.com](mailto:sales@voteamerica.com)
 
-This data has been gathered and vetted by our research staff, but if you see an error please [report it](https://www.voteamerica.com/report-incorrect-info/).
+If you've ever wanted to build your own Election Center of state-specific data, this is the API for you. There are 51 different sets of laws governing elections in the United States because we like to make things as complicated as possible.  We've navigated this mess so you don't have to.  The data in this API powers the VoteAmerica site, and is surfaced throughout the VoteAmerica tools.
+
+[Election Information API fields and descriptions are here](https://www.voteamerica.com/election-data-api-fields/).
+
+
+
+## Using the API
 
 The API base URL is `https://api.voteamerica.com/v1/`. For example, you can try running `curl https://api.voteamerica.com/v1/election/field/`.
 
@@ -24,9 +28,6 @@ Returns an array of state information field objects. Each contains a slug, a lon
 
 Slugs can be matched to the results in `/state/{state}`. Descriptions are used as headers on VoteAmerica.com
 
-### Field Types
-
-You can find a listing of all of the 90+ Election Information API fields [on our website](https://www.voteamerica.com/election-data-api-fields/).
 
 ## GET `/election/data/state/{state}/`
 
