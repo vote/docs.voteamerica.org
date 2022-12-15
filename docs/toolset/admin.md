@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Tool Admin
-parent: Administration
-nav_order: 5
+parent: Toolset
+nav_order: 1
 ---
 
 # Tool Admin

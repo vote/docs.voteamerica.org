@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Administration
+title: Toolset
 has_children: true
 nav_order: 2
 ---
