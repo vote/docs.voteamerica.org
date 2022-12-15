@@ -2,7 +2,7 @@
 layout: default
 title: JavaScript Events
 parent: Toolset
-nav_order: 5
+nav_order: 4
 ---
 
 # JavaScript Events
