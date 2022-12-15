@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Free Embed Code
-parent: Tool Embeds
-nav_order: 1
+parent: Toolset
+nav_order: 2
 ---
 
 # Free Tools Embed Code

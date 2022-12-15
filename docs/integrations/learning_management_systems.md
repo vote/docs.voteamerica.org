@@ -2,7 +2,7 @@
 layout: default
 title: LMS Blackboard and Canvas
 parent: Integrations
-nav_order: 3
+nav_order: 4
 ---
 
 # [Learning Management Systems](/integrations/learning_management_systems)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Export Format
-parent: Embed
-nav_order: 2
+parent: Toolset
+nav_order: 7
 ---
 
 # Export File Format
