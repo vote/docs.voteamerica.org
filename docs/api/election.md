@@ -9,7 +9,7 @@ parent: API
 
 The Election Information It contains approximately 100 points of data per state.  This information is surfaced on the VoteAmerica website and within varius tool workflows. You can see all of the fields currently available on this page: https://www.voteamerica.com/election-data-api-fields/
 
-We license access to this data on both a monthly an annual basis. If you are interested in an API key, please contact sales@voteamerica.com
+We license access to this data on both a monthly an annual basis. If you are interested in an API key, please contact [sales@voteamerica.com](mailto:sales@voteamerica.com)
 
 This data has been gathered and vetted by our research staff, but if you see an error please [report it](https://www.voteamerica.com/report-incorrect-info/).
 
