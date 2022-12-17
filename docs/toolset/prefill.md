@@ -36,29 +36,3 @@ utm_medium
 utm_term
 utm_content
 ```
-
-## Defaults and Overrides
-
-In addition to allowing these parameters, we allow setting default and override UTM attributes within the embed code.
-
-**Default attributes:**
-
-```
-data-default-Source
-data-default-Utm-Campaign
-data-default-Utm-Source
-data-default-Utm-Medium
-data-default-Utm-Term
-data-default-Utm-Content
-```
-
-**Override attributes:**
-
-```
-data-override-Source
-data-override-Utm-Campaign
-data-override-Utm-Source
-data-override-Utm-Medium
-data-override-Utm-Term
-data-override-Utm-Content
-```
