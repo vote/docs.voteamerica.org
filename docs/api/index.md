@@ -16,7 +16,7 @@ Our API docs are currently evolving, but you can get examples, and an interactiv
 
 If you've ever wanted to build your own Election Center of state-specific data, this is the API for you. There are 51 different sets of laws governing elections in the United States because we like to make things as complicated as possible.  We've navigated this mess so you don't have to.  The data in this API powers the VoteAmerica site, and is surfaced throughout the VoteAmerica tools.
 
-[Civic Data API fields and descriptions are here](https://www.voteamerica.com/election-data-api-fields/).
+[Civic Data API fields and descriptions are here](https://www.voteamerica.com/civic-data-api/).
 
 ### Using the API
 
