@@ -13,10 +13,10 @@ The tools have minimal branding, and the fonts and color scheme should work with
 
 ## Free toolset
 
-The VoteAmerica tools are free for anyone to use.  You can find the code to embed them on your website on the [VoteAmerica website](https://www.voteamerica.com/embeds/).
+The VoteAmerica tools are free for anyone to use. You can find the code to embed them on your website on the [VoteAmerica website](https://www.voteamerica.com/embeds/).
 
 ## Premium toolset
 
 If you'd like access to the information gathered via an instance of the tools, you'll need a paid subscription.  Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to discuss pricing.
 
-Existing subscribers will find their unique embed code on the dashboard.  Login at [https://dashboard.readysetvote.io/](https://dashboard.readysetvote.io/)
+Existing subscribers will find their unique embed code on the dashboard. Log in at [https://secure.voteamerica.com/](https://secure.voteamerica.com/).
