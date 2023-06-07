@@ -33,7 +33,7 @@ To add to [Canvas](https://www.instructure.com/canvas):
    1. Under `Method`, select `Enter URL`
    1. Fill `JSON URL` with `https://lti.voteamerica.com/register/canvas`
    1. Click `Save`
-1. Under the `Details` column, copy the Client ID and [send it to the VoteAmerica team](https://about.voteamerica.com/contact).
+1. Under the `Details` column, copy the Client ID and [send it to the VoteAmerica+ team](https://about.voteamerica.com/contact).
 1. Modify the placement
    1. Edit the `VoteAmerica` LTI key
    1. Under `Placements`, change to `User Navigation`
