@@ -7,7 +7,7 @@ nav_order: 7
 
 # Using Meta/Facebook Pixel Tracking
 
-[Meta Pixel](https://developers.facebook.com/docs/meta-pixel) is a system from Facebook (Meta) that allows you to track conversions. If you have Meta Pixel installed on your website, you can send the VoteAmerica events to Meta Pixel using the following JavaScript snippet.
+[Meta Pixel](https://developers.facebook.com/docs/meta-pixel) is a system from Facebook (Meta) that allows you to track conversions. If you have Meta Pixel installed on your website, you can send the VoteAmerica+ events to Meta Pixel using the following JavaScript snippet.
 
 ```js
 window.addEventListener('VoteAmericaEvent', function(evt) {
