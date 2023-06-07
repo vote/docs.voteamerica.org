@@ -7,10 +7,10 @@ nav_order: 4
 
 # Blackboard and Canvas LMS
 
-VoteAmerica works with Blackboard LMS and Canvas LMS to make voter registration easy and convenient.
-If you are an LMS administrator you can add the VoteAmerica Register to Vote tool to your instance.
+VoteAmerica+ works with Blackboard LMS and Canvas LMS to make voter registration easy and convenient.
+If you are an LMS administrator you can add the VoteAmerica+ Register to Vote tool to your instance.
 
-The VoteAmerica LMS plugin is made available through as an [LTI 1.3](https://www.imsglobal.org/spec/lti/v1p3/) tool, and thus should be compatible with all [certified platforms](https://site.imsglobal.org/certifications?refinementList%5Blti_implementation_type%5D%5B0%5D=Type%3A%20Platform%20%28Consumer%29&refinementList%5Bstandards_lvlx%5D%5B0%5D=Learning%20Tools%20Interoperability%C2%AE%20%28LTI%29&refinementList%5Bstandards_lvlx%5D%5B1%5D=Learning%20Tools%20Interoperability%C2%AE%20%28LTI%29%20%3E%20Learning%20Tools%20Interoperability%20%28LTI%29%20v1.3). In other words, the plugin should work with most LMS platforms.
+The VoteAmerica+ LMS plugin is made available through as an [LTI 1.3](https://www.imsglobal.org/spec/lti/v1p3/) tool, and thus should be compatible with all [certified platforms](https://site.imsglobal.org/certifications?refinementList%5Blti_implementation_type%5D%5B0%5D=Type%3A%20Platform%20%28Consumer%29&refinementList%5Bstandards_lvlx%5D%5B0%5D=Learning%20Tools%20Interoperability%C2%AE%20%28LTI%29&refinementList%5Bstandards_lvlx%5D%5B1%5D=Learning%20Tools%20Interoperability%C2%AE%20%28LTI%29%20%3E%20Learning%20Tools%20Interoperability%20%28LTI%29%20v1.3). In other words, the plugin should work with most LMS platforms.
 
 If your students are below the age of 18, please direct them to [Future Voter](https://www.futurevoter.com/)!
 
@@ -44,4 +44,4 @@ To add to [Canvas](https://www.instructure.com/canvas):
 1. [Add the External App](https://community.canvaslms.com/t5/Admin-Guide/How-do-I-configure-an-external-app-for-an-account-using-a-client/ta-p/202)
 1. In the sidebar, click `Account`, then `Register to vote`. You should see the tool appear and look something like the following:
 
-   ![VoteAmerica registration form shown in Canvas interface](canvas.png)
+   ![VoteAmerica+ registration form shown in Canvas interface](canvas.png)
