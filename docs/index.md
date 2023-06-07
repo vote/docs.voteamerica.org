@@ -15,5 +15,5 @@ The tools are free to use and embed on your website. If you'd like access to the
 - [Click here for the embed code for the free tools](https://www.voteamerica.com/embeds/)
 - Contact [sales@voteamerica.com](mailto:sales@voteamerica.com) for more information on paid accounts.
 
-VoteAmerica is a 501(c)(3) nonprofit organization.  Paid accounts are managed via VoteAmerica LLC, which is a wholly owned subsidiary of VoteAmerica. We do this for accounting purposes: everyone's life is just easier if software licensing is handled via a distinct legal entity. 
+VoteAmerica is a 501(c)(3) nonprofit organization.  VoteAmerica+ paid accounts are managed via VoteAmerica LLC, which is a wholly owned subsidiary of VoteAmerica. We do this for accounting purposes: everyone's life is just easier if software licensing is handled via a distinct legal entity. 
 
