@@ -7,7 +7,7 @@ nav_order: 5
 
 # Export File Format
 
-This document contains the column names and descriptions for available exports from the administrative interface of VoteAmerica's toolset.
+This document contains the column names and descriptions for available exports from the administrative interface of the VoteAmerica+ toolset.
 
 As not every state has the same field requirements, not every method of completion in every state will collect all columns, and it is possible for users to perform many completions during 1 session, many columns will be blank in live exports.
 
