@@ -7,7 +7,7 @@ nav_order: 6
 
 # Firing events in Google Tag Manager
 
-[Google Tag Manager (GTM)](https://marketingplatform.google.com/about/tag-manager/) is a system from Google that allows you to manage website tags. If you have GTM installed on your website, you can send the VoteAmerica events to GTM using the following JavaScript snippet.
+[Google Tag Manager (GTM)](https://marketingplatform.google.com/about/tag-manager/) is a system from Google that allows you to manage website tags. If you have GTM installed on your website, you can send the VoteAmerica+ events to GTM using the following JavaScript snippet.
 
 ```js
 window.dataLayer = window.dataLayer || [];
