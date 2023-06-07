@@ -5,7 +5,7 @@ has_children: false
 nav_order: 3
 ---
 
-# VoteAmerica APIs
+# VoteAmerica+ APIs
 
 API keys are only available to paid customers. Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
 
