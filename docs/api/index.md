@@ -7,7 +7,7 @@ nav_order: 3
 
 # VoteAmerica+ APIs
 
-API keys are only available to paid customers. Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
+API keys are only available to VoteAmerica+ customers. Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
 
 ## Interactive API Documents
 Our API docs are currently evolving, but you can get examples, and an interactive interface here: [https://api.voteamerica.com/docs/api/](https://api.voteamerica.com/docs/api/)
