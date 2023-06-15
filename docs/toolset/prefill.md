@@ -39,3 +39,8 @@ Some notes on using these URL parameters:
 * Any spaces in values should be replaced by `%20`. (Ex: `address1=123%20Main%20Street`)
 * State should be passed as a 2-letter postal code (Ex: `state=CA`)
 * Month of birth should be passed as a 2-digit number (Ex: `month=01` for January)
+
+Example URL:
+```
+https://demo.voteamerica.com/verify-demo?first_name=Joe&last_name=Biden&address1=1600%20Pennsylvania%20Ave&city=Washington&state=DC&zipcode=20230&month_of_birth=11&day_of_birth=20&year_of_birth=1942&email=joe@whitehouse.gov
+```
