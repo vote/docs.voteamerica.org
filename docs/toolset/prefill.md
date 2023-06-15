@@ -36,6 +36,6 @@ utm_content
 ```
 
 Some notes on using these URL parameters: 
-* Any spaces in values should be replaced by `%20`. For example: `address1=123%20Main%20Street`
-* State should be passed as a 2-letter postal code
-* Month of birth should be passed as a number
+* Any spaces in values should be replaced by `%20`. (Ex: `address1=123%20Main%20Street`)
+* State should be passed as a 2-letter postal code (Ex: `state=CA`)
+* Month of birth should be passed as a 2-digit number (Ex: `month=01` for January)
