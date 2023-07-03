@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tool Admin
+title: Software Admin
 parent: Software
 nav_order: 1
 ---

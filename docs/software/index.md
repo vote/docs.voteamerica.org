@@ -7,13 +7,13 @@ nav_order: 2
 
 # Overview
 
-VoteAmerica+ software can be embedded in other websites with a short snippet of code. This will load our tool asynchronously via Javascript into a div with the class `voteamerica-embed`. This will not block rendering of the parent page, and the iframe will check the URL of the parent page for [tracking URL arguments](/toolset/tracking/).
+VoteAmerica+ software can be embedded in other websites with a short snippet of code. This will load our tool asynchronously via Javascript into a div with the class `voteamerica-embed`. This will not block rendering of the parent page, and the iframe will check the URL of the parent page for [tracking URL arguments](/software/tracking/).
 
 The software has minimal branding, and the fonts and color scheme should work with any website design.
 
 ## Free software
 
-VoteAmerica's software is free for anyone to use. You can find the code to embed it on your website on the [VoteAmerica website](https://www.voteamerica.com/embeds/).
+VoteAmerica's software is free for anyone to use. You can find the code to embed it on your website on the [VoteAmerica website](https://www.voteamerica.com/free-software/).
 
 ## VoteAmerica+ software
 
