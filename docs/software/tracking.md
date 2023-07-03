@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Source Tracking
-parent: Toolset
+parent: Software
 nav_order: 3
 ---
 

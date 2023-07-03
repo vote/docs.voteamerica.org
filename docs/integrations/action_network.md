@@ -7,7 +7,7 @@ nav_order: 1
 
 # ActionNetwork
 
-When a user makes use of a VoteAmerica+ tool embed, we collect their their contact information.  This can be
+When a user makes use of a VoteAmerica+ software embed, we collect their their contact information.  This can be
 passed to [ActionNetwork](https://actionnetwork.org) to add the user to your email list and/or trigger an Action to inform targetting or ladder conditions.
 
 ## Enabling

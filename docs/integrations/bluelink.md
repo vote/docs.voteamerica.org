@@ -8,7 +8,7 @@ nav_order: 2
 
 # Bluelink Lightrail
 
-VoteAmerica+ tools integrate with [Bluelink Lightrail](https://bluelink.org/)
+VoteAmerica+ software integrates with [Bluelink Lightrail](https://bluelink.org/)
 so you can easily sync your data to Civis/Redshift, BigQuery, NGP VAN, Salesforce, Facebook custom
 audiences, and more.
 
