@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JavaScript Events
-parent: Toolset
+parent: Software
 nav_order: 4
 ---
 

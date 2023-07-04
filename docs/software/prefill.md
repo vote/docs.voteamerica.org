@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Form Prefilling
-parent: Toolset
+parent: Software
 nav_order: 2
 ---
 
 # Form Prefilling
 
-You can prefill VoteAmerica+ tools by using URL parameters. For embeds, certain URL parameters added to the parent window can be passed to the embedded tool.
+You can prefill VoteAmerica+ software by using URL parameters. For embeds, certain URL parameters added to the parent window can be passed to the embedded tool.
 
 The list of accepted parameters can be viewed here:
 
