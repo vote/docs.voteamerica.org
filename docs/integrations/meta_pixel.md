@@ -17,4 +17,4 @@ window.addEventListener('VoteAmericaEvent', function(evt) {
 
 You can read more about [conversion tracking in Meta's documentation](https://developers.facebook.com/docs/meta-pixel/implementation/conversion-tracking)
 
-See [JavaScript Events](../../toolset/events) for more details on the types of events and the data contained in each event.
+See [JavaScript Events](../../software/events) for more details on the types of events and the data contained in each event.
