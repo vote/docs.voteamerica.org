@@ -5,19 +5,7 @@ has_children: true
 nav_order: 3
 ---
 
-# VoteAmerica+ APIs
-{: .no_toc }
-
-API keys are only available to VoteAmerica+ customers. 
-Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
-
-## Interactive API Documents
-{: .no_toc }
-
-To see query request and response examples, visit our interactive interface here: 
-[https://api.voteamerica.com/docs/api/v2](https://api.voteamerica.com/docs/api/v2)
-
-## Civic Data API
+# VoteAmerica+ Civic Data API
 {: .no_toc }
 
 If you've ever wanted to build your own Election Center of state-specific data, this is the API for you. 
@@ -27,22 +15,30 @@ The data in this API powers the VoteAmerica site and is surfaced throughout the 
 
 [Civic Data API fields and descriptions are here](https://www.voteamerica.com/civic-data-api/).
 
+API keys are only available to VoteAmerica+ customers. 
+Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
+
 1. TOC
 {:toc}
 
-
-### Versions
+## Versions
 
 Version 2 of the Civic Data API is now available. The remainder of this page describes V2. 
 You can find [historic docs for V1 here](/api/v1). 
 Our [Upgrade Guide](/api/upgrade_guide) details all the changes and the rationale behind them.
 
-### Using the API
+## Interactive API Documents
+{: .no_toc }
+
+To see query request and response examples, visit our interactive interface here: 
+[https://api.voteamerica.com/docs/api/v2](https://api.voteamerica.com/docs/api/v2)
+
+## Using the API
 
 The API base URL is `https://api.voteamerica.com/v2/`. 
 For example, you can try running `curl https://api.voteamerica.com/v2/election/field/`.
 
-### Authentication
+## Authentication
 
 Some endpoints (indicated below) require an API key. If you are already a VoteAmerica+ customer with an active
 subscription to the Civic Data API, you can generate an API key 
@@ -52,10 +48,9 @@ Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn mo
 For endpoints requiring authentication, use basic auth with your API key ID as the username 
 and API key secret as the password.
 
-### Endpoints
+## Endpoints
 
-#### GET `/election/field/`
-{: .fs-5 }
+### GET `/election/field/`
 
 **Authentication:** none
 
@@ -88,8 +83,7 @@ Possible field formats include: `Boolean`, `Date`, `Markdown`, `Multi-select`, `
 ]
 ```
 
-#### GET `/election/data/state/{state}/`
-{: .fs-5 }
+### GET `/election/data/state/{state}/`
 
 **Authentication:** basic auth ([details](#authentication))
 
@@ -129,8 +123,7 @@ requires further explanation.
 }
 ```
 
-#### GET `/election/override/`
-{: .fs-5 }
+### GET `/election/override/`
 
 **Authentication:** basic auth ([details](#authentication))
 
