@@ -6,16 +6,19 @@ nav_order: 3
 ---
 
 # VoteAmerica+ APIs
+{: .no_toc }
 
 API keys are only available to VoteAmerica+ customers. 
 Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
 
 ## Interactive API Documents
+{: .no_toc }
 
 To see query request and response examples, visit our interactive interface here: 
 [https://api.voteamerica.com/docs/api/v2](https://api.voteamerica.com/docs/api/v2)
 
 ## Civic Data API
+{: .no_toc }
 
 If you've ever wanted to build your own Election Center of state-specific data, this is the API for you. 
 There are 51 different sets of laws governing elections in the United States 
@@ -23,6 +26,10 @@ because we like to make things as complicated as possible.  We've navigated this
 The data in this API powers the VoteAmerica site and is surfaced throughout the VoteAmerica tools.
 
 [Civic Data API fields and descriptions are here](https://www.voteamerica.com/civic-data-api/).
+
+1. TOC
+{:toc}
+
 
 ### Versions
 
@@ -45,7 +52,10 @@ Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn mo
 For endpoints requiring authentication, use basic auth with your API key ID as the username 
 and API key secret as the password.
 
-### GET `/election/field/`
+### Endpoints
+
+#### GET `/election/field/`
+{: .fs-5 }
 
 **Authentication:** none
 
@@ -78,7 +88,8 @@ Possible field formats include: `Boolean`, `Date`, `Markdown`, `Multi-select`, `
 ]
 ```
 
-### GET `/election/data/state/{state}/`
+#### GET `/election/data/state/{state}/`
+{: .fs-5 }
 
 **Authentication:** basic auth ([details](#authentication))
 
@@ -118,7 +129,8 @@ requires further explanation.
 }
 ```
 
-### GET `/election/override/`
+#### GET `/election/override/`
+{: .fs-5 }
 
 **Authentication:** basic auth ([details](#authentication))
 
