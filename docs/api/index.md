@@ -47,9 +47,13 @@ and API key secret as the password.
 
 ### GET `/election/field/`
 
-Authentication: none
+**Authentication:** none
 
-Returns an array of state information field objects. Each contains a slug, a longer description, and a field format.
+**Returns:** An array of state information field objects. 
+
+**Notes:** 
+
+Each state information field object contains a slug, a longer description, and a field format.
 Fields using the format `Multi-select` or `Single-select` also include an `options` property that lists the
 possible options available for selection. 
 
@@ -60,6 +64,8 @@ include a list of the options applicable to the state.)
 Slugs can be matched to the results in `/election/data/state/{state}`.
 
 Possible field formats include: `Boolean`, `Date`, `Markdown`, `Multi-select`, `Single-select`, `URL`.
+
+**Response structure:**
 
 ```markdown
 [
@@ -74,10 +80,13 @@ Possible field formats include: `Boolean`, `Date`, `Markdown`, `Multi-select`, `
 
 ### GET `/election/data/state/{state}/`
 
-Authentication: basic auth ([details](#authentication))
+**Authentication:** basic auth ([details](#authentication))
 
-Returns all state information fields for a single state. 
-`{state}` should be a 2-letter postal abbreviation, in upper case.
+**Parameters:** `{state}` should be a 2-letter postal abbreviation, in upper case.
+
+**Returns:** All state information fields for a single state.
+
+**Notes:** 
 
 Each item in the `state_information` list has a `field_type` property that maps to 
 a slug in the `GET /election/field/` response.
@@ -88,8 +97,10 @@ The state's value for a field is returned in 2 different ways:
 boolean value is given, and for Multi-select-format fields, a list is given. For all other field formats, the value
 is provided as a string.
 
-The `footnote` property is populated when the state's value for a given field has exceptions or 
+The `footnotes` property is populated when the state's value for a given field has exceptions or 
 requires further explanation.
+
+**Response structure:**
 
 ```markdown
 {
@@ -107,3 +118,36 @@ requires further explanation.
 }
 ```
 
+### GET `/election/override/`
+
+**Authentication:** basic auth ([details](#authentication))
+
+**Returns:** A list of regional overrides, which are cases where regional-level data (usually representing a county) 
+overrides state-level data. 
+
+**Notes:** 
+
+In a few cases, specific regions within a state have their own value for a field. 
+For example, some cities and counties in Illinois have their own absentee ballot request tool URLs
+(represented by the field `gov_tool_absentee_request`). For voters in these regions, the regional-level URL should
+be used instead of the state-level URL. 
+
+This endpoint returns a list of all regional overrides. For each, the state name, region name, field slug
+and regional-level value is provided.
+
+**Response structure:**
+
+```markdown
+[
+  {
+    "state": string,
+    "region": {
+      "name": string
+    },
+    "field": {
+      "slug": string
+    },
+    "value": string
+  }
+]
+```
