@@ -41,7 +41,7 @@ in `footnotes`. [See the V2 docs](/api/#get-electiondatastatestate) for more inf
 ### Multi-select fields
 
 {: .highlight }
-See the [section on consolidated fields](#consolidated-fields) for breaking changes resulting from the move to 
+See the [section on deleted fields](#deleted-fields) for breaking changes resulting from the move to 
 multi-select fields. 
 
 We've added a new field format to the API: `Multi-select`. 
