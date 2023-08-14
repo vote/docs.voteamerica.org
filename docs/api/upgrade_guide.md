@@ -105,68 +105,68 @@ The table below lists all one-to-one renamings of field slugs. In general, the r
 same across the board: To adhere to [more consistent naming conventions](#more-consistent-naming-conventions) 
 as described above.
 
-| V1 name (deprecated)                     | V2 name                                 |
-|:-----------------------------------------|:----------------------------------------|
-| alert_registration                       | alerts_registration                     |
-| alert_vbm                                | alerts_absentee                         |
-| ballot_curing_correction_process         | ballot_curing_directions                |
-| ballot_curing_instructions               | ballot_curing_laws_rejection_reasons    |
-| ballot_curing_notification_process       | ballot_curing_laws_notification_process |
-| emergency_ballot_application             | pdf_emergency_ballot_application        |
-| emergency_ballot_request_end             | emergency_ballot_request_deadline       |
-| emergency_ballot_rules                   | emergency_ballot_laws                   |
-| external_tool_absentee_ballot_tracker    | gov_tool_absentee_tracker               |
-| external_tool_ovr                        | gov_tool_registration                   |
-| external_tool_polling_place              | gov_tool_polling_place                  |
-| external_tool_provisional_ballot_tracker | gov_tool_provisional_tracker            |
-| external_tool_vbm_application            | gov_tool_absentee_request               |
-| external_tool_verify_status              | gov_tool_verify                         |
-| felon_vote_fees                          | felony_laws_restoration_fees            |
-| felon_vote_restoration                   | felony_laws_restoration_timeline        |
-| id_requirements_in_person_registration   | id_laws_in_person_registration          |
-| id_requirements_in_person_voting         | id_laws_in_person_voting                |
-| id_requirements_ovr                      | id_laws_online_registration             |
-| id_requirements_sdr                      | id_laws_sdr                             |
-| id_requirements_students                 | id_laws_student_voters                  |
-| id_requirements_vbm_request              | id_laws_absentee_request                |
-| id_requirements_vbm_return               | id_laws_ballot_return                   |
-| official_info_early_voting               | source_early_voting_info                |
-| official_info_felon                      | source_felony_restoration_info          |
-| official_info_registration               | source_registration_info                |
-| official_info_students                   | source_student_voting_info              |
-| official_info_vbm                        | source_absentee_info                    |
-| official_info_voter_id                   | source_voter_id_info                    |
-| overseas_fvap_directions                 | fvap_directions                         |
-| overseas_fvap_tool                       | gov_tool_uocava                         |
-| registration_automatic_exists            | has_automatic_registration              |
-| registration_minimum_age                 | minimum_age_register                    |
-| registration_nvrf_box_6                  | nvra_directions_box6                    |
-| registration_nvrf_box_7                  | nvra_directions_box7                    |
-| registration_nvrf_box_8                  | nvra_directions_box8                    |
-| registration_nvrf_submission_address     | nvra_address                            |
-| registration_ovr_directions              | registration_directions_online          |
-| registration_rules                       | registration_laws                       |
-| sdr_early_voting                         | has_sdr_early_voting                    |
-| sdr_election_day                         | has_sdr_election_day                    |
-| sdr_where                                | sdr_locations                           |
-| state_election_code                      | source_election_code                    |
-| vbm_absentee_ballot_rules                | absentee_voting_laws                    |
-| vbm_deadline_in_person                   | absentee_deadline_in_person             |
-| vbm_deadline_mail                        | absentee_deadline_mail                  |
-| vbm_deadline_online                      | absentee_deadline_online                |
-| vbm_first_day_to_apply                   | absentee_request_start                  |
-| vbm_no_excuse                            | has_no_excuse_absentee                  |
-| vbm_other_options                        | absentee_ballot_issues                  |
-| vbm_ovbm_directions                      | absentee_directions_online              |
-| vbm_overview                             | absentee_summary                        |
-| vbm_permanent_anyone                     | has_pav_everyone                        |
-| vbm_permanent_disabled                   | has_pav_disabled                        |
-| vbm_request_directions_mail              | absentee_directions_mail                |
-| vbm_state_provides_ballot_postage        | has_free_ballot_postage                 |
-| vbm_universal                            | has_automatic_vbm                       |
-| vbm_voted_ballot_deadline_in_person      | ballot_return_deadline_in_person        |
-| vbm_voted_ballot_deadline_mail           | ballot_return_deadline_mail             |
-| vbm_warnings                             | warnings_absentee                       |
+| V1 name (deprecated)                     | V2 name                                                             |
+|:-----------------------------------------|:--------------------------------------------------------------------|
+| alert_registration                       | alerts_registration                                                 |
+| alert_vbm                                | alerts_absentee                                                     |
+| ballot_curing_correction_process         | ballot_curing_directions                                            |
+| ballot_curing_instructions               | ballot_curing_laws_rejection_reasons                                |
+| ballot_curing_notification_process       | ballot_curing_laws_notification_process                             |
+| emergency_ballot_application             | pdf_emergency_ballot_application                                    |
+| emergency_ballot_request_end             | emergency_ballot_request_deadline                                   |
+| emergency_ballot_rules                   | emergency_ballot_laws                                               |
+| external_tool_absentee_ballot_tracker    | gov_tool_absentee_tracker                                           |
+| external_tool_ovr                        | gov_tool_registration                                               |
+| external_tool_polling_place              | gov_tool_polling_place                                              |
+| external_tool_provisional_ballot_tracker | gov_tool_provisional_tracker                                        |
+| external_tool_vbm_application            | gov_tool_absentee_request                                           |
+| external_tool_verify_status              | gov_tool_verify                                                     |
+| felon_vote_fees                          | felony_laws_restoration_fees                                        |
+| felon_vote_restoration                   | felony_laws_restoration_process                                     |
+| id_requirements_in_person_registration   | id_laws_in_person_registration                                      |
+| id_requirements_in_person_voting         | id_laws_in_person_voting                                            |
+| id_requirements_ovr                      | id_laws_online_registration                                         |
+| id_requirements_sdr                      | id_laws_sdr                                                         |
+| id_requirements_students                 | id_laws_student_voters                                              |
+| id_requirements_vbm_request              | id_laws_absentee_request                                            |
+| id_requirements_vbm_return               | id_laws_ballot_return                                               |
+| official_info_early_voting               | source_early_voting_info                                            |
+| official_info_felon                      | source_rights_restoration_info                                      |
+| official_info_registration               | source_registration_info                                            |
+| official_info_students                   | source_student_voting_info                                          |
+| official_info_vbm                        | source_absentee_info                                                |
+| official_info_voter_id                   | source_voter_id_info                                                |
+| overseas_fvap_directions                 | fvap_uocava_directions                                              |
+| overseas_fvap_tool                       | gov_tool_uocava                                                     |
+| registration_automatic_exists            | has_automatic_registration                                          |
+| registration_minimum_age                 | minimum_age_register                                                |
+| registration_nvrf_box_6                  | nvra_directions_box6                                                |
+| registration_nvrf_box_7                  | nvra_directions_box7                                                |
+| registration_nvrf_box_8                  | nvra_directions_box8                                                |
+| registration_nvrf_submission_address     | nvra_submission_address                                             |
+| registration_ovr_directions              | registration_directions_online                                      |
+| registration_rules                       | registration_laws                                                   |
+| sdr_early_voting                         | has_sdr_early_voting                                                |
+| sdr_election_day                         | has_sdr_election_day                                                |
+| sdr_where                                | sdr_locations                                                       |
+| state_election_code                      | source_election_code                                                |
+| vbm_absentee_ballot_rules                | absentee_voting_laws                                                |
+| vbm_deadline_in_person                   | absentee_deadline_in_person                                         |
+| vbm_deadline_mail                        | absentee_deadline_mail                                              |
+| vbm_deadline_online                      | absentee_deadline_online                                            |
+| vbm_first_day_to_apply                   | absentee_request_start_date                                         |
+| vbm_no_excuse                            | has_no_excuse_absentee                                              |
+| vbm_other_options                        | absentee_ballot_issues                                              |
+| vbm_ovbm_directions                      | absentee_directions_online                                          |
+| vbm_overview                             | absentee_process_summary                                            |
+| vbm_permanent_anyone                     | has_pav_everyone                                                    |
+| vbm_permanent_disabled                   | has_pav_disabled                                                    |
+| vbm_request_directions_mail              | absentee_directions_mail                                            |
+| vbm_state_provides_ballot_postage        | has_free_ballot_postage                                             |
+| vbm_universal                            | has_automatic_vbm                                                   |
+| vbm_voted_ballot_deadline_in_person      | ballot_return_deadline_in_person                                    |
+| vbm_voted_ballot_deadline_mail           | ballot_return_deadline_mail                                         |
+| vbm_warnings                             | warnings_absentee                                                   |
 
 ### Deleted fields
 
@@ -176,9 +176,10 @@ field.
 
 | Deleted field                                   | Rationale / details                                                                                                                                     |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| early_voting                                    | Redundant with the existence of data in `early_voting_starts` and `early_voting_ends`.                                                                  |
 | early_voting_notes                              | Migrated to footnotes on `early_voting_starts` and `early_voting_ends`.                                                                                 |
 | emergency_ballot_request_start                  | Not necessary to track. Generally, this is when the regular absentee ballot request deadline has passed.                                                |
-| external_tool_felony_restoration_state_info     | Redundant with another field now called `source_felony_restoration_info`.                                                                               |
+| external_tool_felony_restoration_state_info     | Redundant with another field now called `source_rights_restoration_info`.                                                                               |
 | external_tool_vbm_application_requires_printing | Not necessary to track with an independent field. South Carolina is the only state where a ballot request form is available online but must be printed. |
 | external_tool_vbm_has_regional_urls             | No longer needed because the presence of overrides will suggest regional URLs exist.                                                                    |
 | felon_vote_in_prison                            | Consolidated to a `Multi-select` field. If `felon_vote_in_prison` was true, `felony_voting_options` will include `imprisoned`.                          |
