@@ -55,7 +55,7 @@ endpoint. If the field format is `Multi-select`, the state information field obj
 that is a list of all available options. 
 
 Then, when querying a state's data via the `GET /election/data/state/{state}/` endpoint, the state information object 
-will have a `value` that is a list of the options applicable to the state.
+will have a property `multiselect_value` that is a list of the options applicable to the state.
 
 ### More consistent naming conventions
 
