@@ -96,11 +96,12 @@ Possible field formats include: `Boolean`, `Date`, `Markdown`, `Multi-select`, `
 Each item in the `state_information` list has a `field_type` property that maps to 
 a slug in the `GET /election/field/` response.
 
-The state's value for a field is returned in 2 different ways:
+The state's value for a field may be returned in a couple different ways:
 * `text` always gives a string representation of the value.
-* `value` gives the value in a type that varies depending on the field's format. For Boolean-format fields, a 
-boolean value is given, and for Multi-select-format fields, a list is given. For all other field formats, the value
-is provided as a string.
+* If the field type is `Boolean`, the response will also include a boolean representation called `bool_value`. 
+Otherwise, this property won't be present.
+* If the field type is `Multi-select`, the response will also include a list representation called 
+`multiselect_value`. Otherwise, this property won't be present.
 
 The `footnotes` property is populated when the state's value for a given field has exceptions or 
 requires further explanation.
@@ -113,9 +114,10 @@ requires further explanation.
     "name": string,
     "state_information": [
         {
-            "text": string,
             "field_type": string,
-            "value": boolean | list | string,
+            "text": string,
+            "bool_value": boolean,
+            "multiselect_value": list,
             "footnotes" string,
             "modified_at": datetime
         }
