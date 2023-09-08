@@ -157,6 +157,29 @@ As not every state has the same field requirements, not every method of completi
 | Embed URL             | For submissions done inside an embed, the URL of the embed                      |
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits. |
 
+## Upcoming Tool Export Format
+
+| Column Title          | Description                                                                                  |
+|-----------------------|----------------------------------------------------------------------------------------------|
+| ID                    | The ID we store internally for the verification                                              |
+| Subscriber            | The name of the subscriber                                                                   |
+| Time Started (UTC)    | The time that the first page of the verification was done                                    |
+| Email                 | The email address of the user                                                                |
+| Phone                 | The phone number of the user                                                                 |
+| Address 1             | The user's Address1                                                                          |
+| State                 | The user's state                                                                             |
+| City                  | The user's city                                                                              |
+| Zipcode               | The user's zipcode                                                                           |
+| Lookup Type           | The value is 'point' if elections were retrieved by coordinates, 'state' if found by state   |
+| Subscriber SMS Opt In | True/False if the user opted into the subscriber's SMS list                                  |
+| source                | The ?source= query param                                                                     |
+| utm_source            | The ?utm_source= query param                                                                 |
+| utm_medium            | The ?utm_medium= query param                                                                 |
+| utm_campaign          | The ?utm_campaign= query param                                                               |
+| utm_content           | The ?utm_content= query param                                                                |
+| utm_term              | The ?utm_term= query param                                                                   |
+| Embed URL             | For submissions done inside an embed, the URL of the embed                                   |
+| Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.              |
 
 ## Verify Tool Export Format
 
