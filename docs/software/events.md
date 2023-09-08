@@ -180,6 +180,16 @@ Here's a list of events provided by VoteAmerica+. Some events have variable para
 }
 ```
 
+### Upcoming Elections Tool
+
+```json
+{
+  event: "action-finish",
+  tool: "upcoming",
+  state: "[STATE]",
+}
+```
+
 ### Where To Vote Tool
 
 ```json
