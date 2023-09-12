@@ -180,7 +180,7 @@ Here's a list of events provided by VoteAmerica+. Some events have variable para
 }
 ```
 
-### Upcoming Elections Tool
+### Election Finder Tool
 
 ```json
 {
