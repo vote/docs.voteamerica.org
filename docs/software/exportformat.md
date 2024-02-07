@@ -157,7 +157,7 @@ As not every state has the same field requirements, not every method of completi
 | Embed URL             | For submissions done inside an embed, the URL of the embed                      |
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits. |
 
-## Election Finder Tool Export Format
+## Upcoming Elections Tool Export Format
 
 | Column Title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
