@@ -12,12 +12,6 @@ VoteAmerica+ has integrations with a number of partners and platforms.
 When a user makes use of a VoteAmerica+ software embed, we collect their contact information. This can be
 passed to ActionNetwork to add the user to your email list and/or trigger an Action to inform targeting or ladder conditions.
 
-# [Bluelink Lightrail](/integrations/bluelink/)
-
-VoteAmerica+ software integrates with Bluelink Lightrail
-so you can easily sync your data to Civis/Redshift, BigQuery, NGP VAN, Salesforce, Facebook custom
-audiences, and more.
-
 # [The Movement Cooperative](/integrations/the_movement_cooperative/)
 
 VoteAmerica+ works with The Movement Cooperative
