@@ -2,7 +2,7 @@
 layout: default
 title: Google Tag Manager
 parent: Integrations
-nav_order: 6
+nav_order: 3
 ---
 
 # Firing events in Google Tag Manager

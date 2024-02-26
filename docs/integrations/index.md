@@ -5,7 +5,7 @@ has_children: true
 nav_order: 4
 ---
 
-VoteAmerica+ has integrations with a number of partners and platforms.
+VoteAmerica+ has integrations with partners including:
 
 # [ActionNetwork](/integrations/action_network/)
 
@@ -19,7 +19,13 @@ to provide easy syncs of your data to your TMC Civis account. If you are a
 TMC member, VoteAmerica+ and TMC can automatically sync your data to your
 Civis account.
 
-# [Learning Management Systems](/integrations/learning_management_systems/)
+# Other platforms
 
-VoteAmerica+ works with Blackboard and Canvas LMSs to make voter registration easy and convenient.
-If you are an LMS administrator you can add the VoteAmerica+ Register to Vote tool to your instance.
+You can also integrate your VoteAmerica+ software with several popular platforms:
+* [Report events to Facebook (Meta) Pixel](/integrations/meta_pixel/)
+* [Report events to Google Tag Manager](/integrations/gtm/)
+* [Embed voter tools on a Wordpress website](/integrations/wordpress/)
+
+# Coming soon
+
+We are developing an integration with Community Tech Alliance's [Hopper](https://communitytechalliance.org/hopper).

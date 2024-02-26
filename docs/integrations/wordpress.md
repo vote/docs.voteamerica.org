@@ -2,7 +2,7 @@
 layout: default
 title: WordPress
 parent: Integrations
-nav_order: 8
+nav_order: 5
 ---
 
 # Software Embeds and WordPress

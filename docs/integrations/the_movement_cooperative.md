@@ -2,7 +2,7 @@
 layout: default
 title: The Movement Cooperative
 parent: Integrations
-nav_order: 3
+nav_order: 4
 ---
 
 # TMC
