@@ -6,10 +6,11 @@ nav_order: 4
 ---
 
 # JavaScript Events
+{: .no_toc }
 
-VoteAmerica+ uses JavaScript event tracking and we pass these events up to the parent window of embeds.
+VoteAmerica+ uses JavaScript event tracking, and we pass these events up to the parent window of embeds.
 
-These events are can be consumed by the parent window with a little bit of JavaScript. These events have a type of `VoteAmericaEvent` and can be listened for using the following JavaScript snippet.
+These events can be consumed by the parent window with a bit of JavaScript. These events have a type of `VoteAmericaEvent` and can be listened for using the following JavaScript snippet.
 
 ```js
 window.addEventListener('VoteAmericaEvent', function(evt) {
@@ -18,12 +19,240 @@ window.addEventListener('VoteAmericaEvent', function(evt) {
 ```
 
 ## VoteAmerica+ Events
+{: .no_toc }
 
-Here's a list of events provided by VoteAmerica+. Some events have variable parameters, such as a state or url. Those variable parameters are denoted with square brackets, such as `[STATE]`.
+Here's a list of events provided by VoteAmerica+ tools and their detailed data. You can find this data by accessing the `detail.data` property within the event.
+
+Some events have variable parameters, such as a state or url. Those variable parameters are denoted with square brackets, such as `[STATE]`.
+
+1. TOC
+{:toc}
+
+### Absentee Tool
+
+#### action-start event
+
+Fired when the user submits the Absentee tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "absentee",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+#### action-finish event
+
+Fired when the user has reached an end point in the Absentee workflow. 
+
+```json-doc
+{
+  event: "action-finish",
+  method: "[METHOD]", // see below for possible options
+  tool: "absentee",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external` - The user clicked a link to visit a state-hosted online ballot request website (not available in all states).
+* `pdf` - The user received an email with a PDF ballot request form they can print and mail.
+* `ineligible-state` - The user was told that online and PDF options are not available in their state. They were provided details for contacting their local election office (applies to Mississippi).
+* `redirect-to-leo` - The user was told about unusual rules in their state that may require them to contact their local election office, and they clicked the link to look up the contact details for this office.
+* `redirect-to-register`- The user lives in a universal vote-by-mail state (they will automatically receive a ballot in the mail) and were asked whether they needed to update their address permanently or request a one-time ballot. They indicated they needed to update their address permanently and were redirected to the Register tool.
+
+#### action-follow-up event
+
+Fired when the user returns to the Absentee flow and takes another action after an `action-finish` has occurred
+(ex: Confirming that they successfully requested a ballot on a state website).
+
+```json-doc
+{
+  event: "action-follow-up",
+  method: "[METHOD]", // see below for possible options
+  tool: "absentee",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external-confirmed` - After clicking on a link to visit a state ballot request website, the user returned to the flow and confirmed that they successfully requested their absentee ballot.
+* `pdf` - After clicking on a link to visit a state ballot request website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF ballot request form to print and mail.
+
+
+### Register Tool
+
+#### action-start event
+
+Fired when the user submits the Register tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "register",
+  state: "[STATE]", 
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"      
+}
+```
+
+#### action-finish event
+
+Fired when the user has reached an end point in the Register workflow. 
+
+```json-doc
+{
+  event: "action-finish",
+  method: "[METHOD]", // see below for possible options
+  tool: "register",
+  url: "[EXTERNAL URL]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external` - The user clicked a link to visit a state-hosted online voter registration website (not available in all states).
+* `pdf` - The user received an email with a PDF registration form they can print and mail.
+* `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
+  * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
+  * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
+* `redirect-to-future-voter` - The use is too young to register to vote, so they were redirected to FutureVoter.com.
+
+#### action-follow-up event
+
+Fired when the user returns to the flow and takes another action after an `action-finish` has occurred
+(ex: Confirming that they successfully registered on a state online voter registration website).
+
+```json-doc
+{
+  event: "action-follow-up",
+  method: "[METHOD]", // see below for possible options
+  tool: "register",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external-confirmed` - After clicking on a link to visit a state voter registration website, the user returned to the flow and confirmed that they successfully registered.
+* `pdf` - After clicking on a link to visit a state voter registration website, the user returned and indicated they wanted to register by mail instead. They received an email with a PDF registration form to print and mail.
+
+### Reminders Tool
+
+#### action-start event
+
+Fired when the user submits the Reminders tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "remind",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+#### action-finish event
+
+Fired when the user receives confirmation that they have been subscribed to election reminders (we expect this to immediately follow form submission).
+
+```json-doc
+{
+  event: "action-finish",
+  tool: "remind",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+### Upcoming Elections Tool
+
+#### action-start event
+
+Fired when the user submits the Upcoming Elections tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "upcoming",
+  state: "[STATE]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+#### action-finish event
+
+Fired when Upcoming Elections results are delivered to the user (we expect this to immediately follow form submission).
+
+```json-doc
+{
+  event: "action-finish",
+  tool: "upcoming",
+  state: "[STATE]",
+  zipcode: "[ZIP CODE]",
+  method: "[METHOD]" // see below for possible options
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `point` - The user's address was successfully geocoded. The upcoming elections results are based on the person's geolocation.
+* `state` - We were unable to geocode the user's address. The upcoming elections results are based only on the person's state.
+
 
 ### Verify Tool
 
-```json
+#### action-start event
+
+Fired when the user submits the Verify tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "verify",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+#### action-finish event
+
+Fired when Verify results are delivered to the user (we expect this to immediately follow form submission).
+
+```json-doc
 {
   event: "action-finish",
   tool: "verify",
@@ -35,167 +264,35 @@ Here's a list of events provided by VoteAmerica+. Some events have variable para
 }
 ```
 
-### Register
-
-```json
-{
-  event: "action-start",
-  tool: "register",
-  state: "[STATE]", 
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"      
-}
-
-{
-  event: "action-finish",
-  method: "external",
-  tool: "register",
-  url: "[EXTERNAL URL]",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "pdf",
-  tool: "register",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"   
-}
-
-{
-  event: "action-finish",
-  method: "pdf-forward",
-  tool: "register",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "pdf-forward-confirmed",
-  tool: "register",
-}
-```
-
-### Absentee Tool
-
-```json
-{
-  event: "action-start",
-  tool: "absentee",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "pdf",
-  tool: "absentee",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "external",
-  tool: "absentee",
-  url: "[EXTERNAL LINK]",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "external-confirmed",
-  tool: "absentee",
-  url: "[EXTERNAL LINK]",
-  state: "[STATE]",
-  first_name: "[FIRST NAME]",
-  last_name: "[LAST NAME]",
-  email: "[EMAIL]",
-  zipcode: "[ZIP CODE]"
-}
-
-{
-  event: "action-finish",
-  method: "fax",
-  tool: "absentee",
-  state: "[STATE]",
-}
-
-{
-  event: "action-finish",
-  method: "email",
-  tool: "absentee",
-  state: "[STATE]",
-}
-
-{
-  event: "action-finish",
-  method: "pdf-forward",
-  tool: "absentee",
-  state: "[STATE]",
-}
-
-{
-  event: "action-finish",
-  method: "pdf-forward-confirmed",
-  tool: "absentee",
-}
-
-{
-  event: "action-restart",
-  tool: "absentee",
-}
-```
-
-### LEO Lookup Tool
-
-```json
-{
-  event: "action-finish",
-  tool: "leo",
-  state: "[STATE]",
-}
-```
-
-### Upcoming Elections Tool
-
-```json
-{
-  event: "action-finish",
-  tool: "upcoming",
-  state: "[STATE]",
-}
-```
-
 ### Where To Vote Tool
 
-```json
+#### action-start event
+
+Fired when the user submits the Where to Vote tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "locator",
+  state: "[STATE]",
+  email: "[EMAIL]",
+}
+```
+
+#### action-finish event
+
+Fired when Where to Vote results are delivered to the user (we expect this to immediately follow form submission).
+
+```json-doc
 {
   event: "action-finish",
   tool: "locator",
   state: "[STATE]",
+  email: "[EMAIL]",
+  method: "[METHOD]" // see below for possible options
 }
 ```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `google-civic` - The Where to Vote results are from the Google Civic API.
+* `external` - No polling place data was available from the Google Civic API for the user's address. Instead, the user was directed to a state-hosted polling place lookup tool.
