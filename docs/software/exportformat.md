@@ -6,13 +6,17 @@ nav_order: 5
 ---
 
 # Export File Format
+{: .no_toc }
 
-This document contains the column names and descriptions for available exports from the administrative interface of the VoteAmerica+ toolset.
+This document contains the column names and descriptions for exports available via the [VoteAmerica+ customer portal](https://secure.voteamerica.com/export/).
 
 Many columns will be blank in live exports for several reasons, including:
 * States have varying field requirements and available methods for completing an action.
 * Some columns have been deprecated and the data are no longer collected by VoteAmerica tools. These columns
 are still included in reporting to provide access to historic data. Deprecated columns are marked below with `(DEPRECATED)`.
+
+1. TOC
+{:toc}
 
 ## Absentee Tool Export Format
 
