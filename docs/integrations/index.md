@@ -12,13 +12,6 @@ VoteAmerica+ has integrations with partners including:
 When a user makes use of a VoteAmerica+ software embed, we collect their contact information. This can be
 passed to ActionNetwork to add the user to your email list and/or trigger an Action to inform targeting or ladder conditions.
 
-# [The Movement Cooperative](/integrations/the_movement_cooperative/)
-
-VoteAmerica+ works with The Movement Cooperative
-to provide easy syncs of your data to your TMC Civis account. If you are a
-TMC member, VoteAmerica+ and TMC can automatically sync your data to your
-Civis account.
-
 # Other platforms
 
 You can also integrate your VoteAmerica+ software with several popular platforms:
