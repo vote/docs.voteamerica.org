@@ -95,6 +95,68 @@ The `method` property will provide more details about what took place. Possible 
 * `pdf` - After clicking on a link to visit a state ballot request website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF ballot request form to print and mail.
 
 
+## FutureVoter Tool
+
+#### action-start event
+
+Fired when the user submits the FutureVoter tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "futurevoter",
+  state: "[STATE]", 
+  first_name: "[FIRST NAME]",
+  zipcode: "[ZIP CODE]"      
+}
+```
+
+#### action-finish event
+
+Fired when the user has reached an end point in the FutureVoter workflow. 
+
+```json-doc
+{
+  event: "action-finish",
+  method: "[METHOD]", // see below for possible options
+  tool: "futurevoter",
+  url: "[EXTERNAL URL]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external` - The user clicked a link to visit a state-hosted online voter registration website (not available in all states).
+* `pdf` - The user received an email with a PDF registration form they can print and mail.
+* `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
+  * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
+  * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
+* `redirect-to-register` - The user is over 18, so they were redirected to the Register tool.
+
+#### action-follow-up event
+
+Fired when the user returns to the flow and takes another action after an `action-finish` has occurred
+(ex: Confirming that they successfully registered on a state online voter registration website).
+
+```json-doc
+{
+  event: "action-follow-up",
+  method: "[METHOD]", // see below for possible options
+  tool: "futurevoter",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external-confirmed` - After clicking on a link to visit a state voter registration website, the user returned to the flow and confirmed that they successfully registered.
+* `pdf` - After clicking on a link to visit a state voter registration website, the user returned and indicated they wanted to register by mail instead. They received an email with a PDF registration form to print and mail.
+
+
 ### Register Tool
 
 #### action-start event
@@ -137,7 +199,7 @@ The `method` property will provide more details about what took place. Possible 
 * `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
   * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
   * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
-* `redirect-to-future-voter` - The use is too young to register to vote, so they were redirected to FutureVoter.com.
+* `redirect-to-future-voter` - The user is too young to register to vote, so they were redirected to FutureVoter.com.
 
 #### action-follow-up event
 
