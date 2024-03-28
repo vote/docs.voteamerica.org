@@ -95,7 +95,7 @@ The `method` property will provide more details about what took place. Possible 
 * `pdf` - After clicking on a link to visit a state ballot request website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF ballot request form to print and mail.
 
 
-## FutureVoter Tool
+### FutureVoter Tool
 
 #### action-start event
 
