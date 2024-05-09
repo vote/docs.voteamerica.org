@@ -115,6 +115,36 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                           |
 
 
+## Pledge Tool Export Format
+
+| Column Title          | Description                                                                           |
+|-----------------------|---------------------------------------------------------------------------------------|
+| ID                    | The ID we store internally for the verification                                       |
+| Subscriber            | The name of the subscriber                                                            |
+| Time Started (UTC)    | The time that the first page of the verification was done                             |
+| First Name            | The user's first name                                                                 |
+| Last Name             | The user's last name                                                                  |
+| Date of Birth         | The date of birth of the user                                                         |
+| Email                 | The email address of the user                                                         |
+| Phone                 | The phone number of the user                                                          |
+| Address 1             | The user's Address1                                                                   |
+| Address 2             | The user's Address2                                                                   |
+| City                  | The user's city                                                                       |
+| Zipcode               | The user's zipcode                                                                    |
+| State                 | The user's state                                                                      |
+| Pledged Election Date | The user's pledged election date.                                                     |
+| Subscriber SMS Opt In | True/False if the user opted into the subscriber's SMS list                           |
+| source                | The ?source= query param                                                              |
+| utm_source            | The ?utm_source= query param                                                          |
+| utm_medium            | The ?utm_medium= query param                                                          |
+| utm_campaign          | The ?utm_campaign= query param                                                        |
+| utm_content           | The ?utm_content= query param                                                         |
+| utm_term              | The ?utm_term= query param                                                            |
+| Embed URL             | For submissions done inside an embed, the URL of the page where the tool was embedded |
+| Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.       |
+| Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                    |
+
+
 ## Register Tool Export Format
 
 | Column Title                             | Description                                                                                                                                                                                                                                    |
