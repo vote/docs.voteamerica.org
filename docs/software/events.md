@@ -157,6 +157,41 @@ The `method` property will provide more details about what took place. Possible 
 * `pdf` - After clicking on a link to visit a state voter registration website, the user returned and indicated they wanted to register by mail instead. They received an email with a PDF registration form to print and mail.
 
 
+### Pledge Tool
+
+#### action-start event
+
+Fired when the user submits the Pledge tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "pledge",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+#### action-finish event
+
+Fired when the user receives confirmation that they have pledged to vote and subscribed to election reminders (we expect this to immediately follow form submission).
+
+```json-doc
+{
+  event: "action-finish",
+  tool: "pledge",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+
 ### Register Tool
 
 #### action-start event
