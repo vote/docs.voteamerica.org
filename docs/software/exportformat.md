@@ -228,7 +228,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.       |
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                    |
 
-## Upcoming Elections Tool Export Format
+## Calendar Tool Export Format
 
 | Column Title          | Description                                                                                |
 |-----------------------|--------------------------------------------------------------------------------------------|
