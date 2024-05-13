@@ -293,11 +293,11 @@ Fired when the user receives confirmation that they have been subscribed to elec
 }
 ```
 
-### Upcoming Elections Tool
+### Calendar Tool
 
 #### action-start event
 
-Fired when the user submits the Upcoming Elections tool intake form.
+Fired when the user submits the Calendar tool intake form.
 
 ```json-doc
 {
@@ -310,7 +310,7 @@ Fired when the user submits the Upcoming Elections tool intake form.
 
 #### action-finish event
 
-Fired when Upcoming Elections results are delivered to the user (we expect this to immediately follow form submission).
+Fired when Calendar results are delivered to the user (we expect this to immediately follow form submission).
 
 ```json-doc
 {
@@ -323,8 +323,8 @@ Fired when Upcoming Elections results are delivered to the user (we expect this 
 ```
 
 The `method` property will provide more details about what took place. Possible `method` options include:
-* `point` - The user's address was successfully geocoded. The upcoming elections results are based on the person's geolocation.
-* `state` - We were unable to geocode the user's address. The upcoming elections results are based only on the person's state.
+* `point` - The user's address was successfully geocoded. The calendar results are based on the person's geolocation.
+* `state` - We were unable to geocode the user's address. The calendar results are based only on the person's state.
 
 
 ### Verify Tool
