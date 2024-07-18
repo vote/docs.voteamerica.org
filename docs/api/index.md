@@ -13,7 +13,7 @@ There are 51 different sets of laws governing elections in the United States
 because we like to make things as complicated as possible.  We've navigated this mess so you don't have to.  
 The data in this API powers the VoteAmerica site and is surfaced throughout the VoteAmerica tools.
 
-[Civic Data API fields and descriptions are here](https://www.voteamerica.com/civic-data-api/).
+[Civic Data API fields and descriptions are here](https://www.voteamerica.org/civic-data-api/).
 
 API keys are only available to VoteAmerica+ customers. 
 Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
@@ -31,18 +31,18 @@ Our [Upgrade Guide](/api/upgrade_guide) details all the changes and the rational
 {: .no_toc }
 
 To see query request and response examples, visit our interactive interface here: 
-[https://api.voteamerica.com/docs/api/v2](https://api.voteamerica.com/docs/api/v2)
+[https://api.voteamerica.org/docs/api/v2](https://api.voteamerica.org/docs/api/v2)
 
 ## Using the API
 
-The API base URL is `https://api.voteamerica.com/v2/`. 
-For example, you can try running `curl https://api.voteamerica.com/v2/election/field/`.
+The API base URL is `https://api.voteamerica.org/v2/`. 
+For example, you can try running `curl https://api.voteamerica.org/v2/election/field/`.
 
 ## Authentication
 
 Some endpoints (indicated below) require an API key. If you are already a VoteAmerica+ customer with an active
 subscription to the Civic Data API, you can generate an API key 
-[via the VoteAmerica+ Customer Dashboard](https://secure.voteamerica.com/civic-data-api/). 
+[via the VoteAmerica+ Customer Dashboard](https://secure.voteamerica.org/civic-data-api/). 
 Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
 
 For endpoints requiring authentication, use basic auth with your API key ID as the username 
