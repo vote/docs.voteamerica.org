@@ -13,10 +13,10 @@ The software has minimal branding, and the fonts and color scheme should work wi
 
 ## Free software
 
-VoteAmerica's software is free for anyone to use. You can find the code to embed it on your website on the [VoteAmerica website](https://www.voteamerica.com/free-software/).
+VoteAmerica's software is free for anyone to use. You can find the code to embed it on your website on the [VoteAmerica website](https://secure.voteamerica.com/free-software/).
 
 ## VoteAmerica+ software
 
-If you'd like access to the information gathered via an instance of our software, you'll need a VoteAmerica+ subscription.  Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to discuss pricing.
+If you'd like access to the information gathered via an instance of our software, you'll need a VoteAmerica+ subscription. Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to discuss pricing.
 
-Existing subscribers will find their unique embed code on the dashboard. Log in at [https://secure.voteamerica.com/](https://secure.voteamerica.com/).
+Existing subscribers will find their unique embed code on the dashboard. Log in at [https://secure.voteamerica.org/](https://secure.voteamerica.org/).

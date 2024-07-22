@@ -8,7 +8,7 @@ nav_order: 5
 # Export File Format
 {: .no_toc }
 
-This document contains the column names and descriptions for exports available via the [VoteAmerica+ customer portal](https://secure.voteamerica.com/export/).
+This document contains the column names and descriptions for exports available via the [VoteAmerica+ customer portal](https://secure.voteamerica.org/export/).
 
 Many columns will be blank in live exports for several reasons, including:
 * States have varying field requirements and available methods for completing an action.

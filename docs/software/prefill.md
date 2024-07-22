@@ -42,5 +42,5 @@ Some notes on using these URL parameters:
 
 Example URL:
 ```
-https://demo.voteamerica.com/verify-demo?first_name=Joe&last_name=Biden&address1=1600%20Pennsylvania%20Avenue%20Southeast&city=Washington&state=DC&zipcode=20003&month_of_birth=11&day_of_birth=20&year_of_birth=1942&email=joe@whitehouse.gov
+https://demo.voteamerica.org/verify-demo?first_name=Joe&last_name=Biden&address1=1600%20Pennsylvania%20Avenue%20Southeast&city=Washington&state=DC&zipcode=20003&month_of_birth=11&day_of_birth=20&year_of_birth=1942&email=joe@whitehouse.gov
 ```

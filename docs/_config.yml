@@ -22,7 +22,7 @@ title: VoteAmerica Documentation
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation for VoteAmerica's tools and API.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://docs.voteamerica.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.voteamerica.org" # the base hostname & protocol for your site, e.g. http://example.com
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/favicon.png"
 
