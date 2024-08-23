@@ -1,11 +1,11 @@
 ---
 layout: default
-title: JavaScript Events
+title: JavaScript events
 parent: Software
 nav_order: 4
 ---
 
-# JavaScript Events
+# JavaScript events
 {: .no_toc }
 
 VoteAmerica+ uses JavaScript event tracking, and we pass these events up to the parent window of embeds.

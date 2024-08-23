@@ -14,6 +14,6 @@ VoteAmerica provides a handful of products for other organizations to use:
 The software is free to use and embed on your website. If you'd like access to the data that comes in via a dedicated instance of our software, you'll need to sign up for a VoteAmerica+ account. You'll also need to sign up for a VoteAmerica+ account if you'd like to use the Civic Data API.
 
 - [Click here for the embed code for the free tools](https://secure.voteamerica.org/free-software)
-- Contact [sales@voteamerica.com](mailto:sales@voteamerica.com) for more information on VoteAmerica+ accounts.
+- Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) for more information on VoteAmerica+ accounts.
 
 VoteAmerica is a 501(c)(3) nonprofit organization. VoteAmerica+ accounts are managed via VoteAmerica LLC, which is a wholly owned subsidiary of VoteAmerica. We do this for accounting purposes: everyone's life is just easier if software licensing is handled via a distinct legal entity.

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Software Admin
+title: Customer portal
 parent: Software
 nav_order: 1
 ---
 
-# Tool Dashboard
+# VoteAmerica+ customer portal
 
 If you are a VoteAmerica+ software subscriber, you will get an invitation via email to create a login on the [VoteAmerica+ dashboard](https://secure.voteamerica.org/). Click the link to set your password.
 
