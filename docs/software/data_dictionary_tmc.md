@@ -23,7 +23,7 @@ The sync is available for these VoteAmerica+ tools:
 
 ## Absentee tool sync
 
-| Column Title              | Description                                                                                                                                                                                                                                          |
+| Column title              | Description                                                                                                                                                                                                                                          |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | slug                      | An identifier for your customer                                                                                                                                                                                                                      |
 | uuid                      | The ID we store internally for the absentee ballot request                                                                                                                                                                                           |
@@ -67,8 +67,7 @@ The sync is available for these VoteAmerica+ tools:
 
 ## Register tool sync
 
-
-| Column Title              | Description                                                                                                                                                                                                                                    |
+| Column title              | Description                                                                                                                                                                                                                                    |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | slug                      | An identifier for your customer                                                                                                                                                                                                                |
 | uuid                      | The ID we store internally for the registration                                                                                                                                                                                                |
@@ -125,13 +124,13 @@ The sync is available for these VoteAmerica+ tools:
 
 ## Verify tool sync
 
-| Column Title          | Description                                                                                  |
+| Column title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
 | slug                  | An identifier for your customer                                                              |
 | uuid                  | The ID we store internally for the verification                                              |
 | subscriber_name       | The name of the subscriber (i.e. your customer name)                                         |
 | subscriber_id         | VoteAmerica's internal identifier for the subscriber / customer                              |
-| created_at            | The time that the first page of the verification flow was submitted                          |
+| created_at            | The time that the first page of the verification flow was submitted, in UTC                  |
 | updated_at            | The date and time when this action's data was last updated, in UTC                           |
 | first_name            | The user's first name                                                                        |
 | last_name             | The user's last name                                                                         |
