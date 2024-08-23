@@ -6,7 +6,7 @@ grand_parent: Software
 nav_order: 2
 ---
 
-# Hopper sync
+# Data dictionary: Hopper sync
 
 This document contains the column names and descriptions for data synced from VoteAmerica+ to 
 [Hopper by Community Tech Alliance](https://communitytechalliance.org/hopper). 
