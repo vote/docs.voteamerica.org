@@ -16,7 +16,7 @@ The data in this API powers the VoteAmerica site and is surfaced throughout the 
 [Civic Data API fields and descriptions are here](https://www.voteamerica.org/civic-data-api/).
 
 API keys are only available to VoteAmerica+ customers. 
-Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
+Please contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to learn more.
 
 1. TOC
 {:toc}
