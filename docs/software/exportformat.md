@@ -6,7 +6,7 @@ grand_parent: Software
 nav_order: 1
 ---
 
-# Export File Format
+# Export file format
 {: .no_toc }
 
 This document contains the column names and descriptions for exports available via the [VoteAmerica+ customer portal](https://secure.voteamerica.org/export/).
@@ -19,7 +19,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 1. TOC
 {:toc}
 
-## Absentee Tool Export Format
+## Absentee tool export format
 
 | Column Title                             | Description                                                                                                                                                                                                                                          |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,8 +62,33 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Referring Tool                           | For users who were linked to the absentee tool by another tool, the name of the tool                                                                                                                                                                 |
 | Updated At (UTC)                         | The date and time when this action's data was last updated, in UTC                                                                                                                                                                                   |
 
+## Calendar tool export format
 
-## FutureVoter Tool Export Format
+| Column Title          | Description                                                                                |
+|-----------------------|--------------------------------------------------------------------------------------------|
+| ID                    | The ID we store internally for the verification                                            |
+| Subscriber            | The name of the subscriber                                                                 |
+| Time Started (UTC)    | The time that the first page of the verification was done                                  |
+| Email                 | The email address of the user                                                              |
+| Phone                 | The phone number of the user                                                               |
+| Address 1             | The user's address1                                                                        |
+| Address 2             | The user's address2                                                                        |
+| City                  | The user's city                                                                            |
+| Zipcode               | The user's zipcode                                                                         |
+| State                 | The user's state                                                                           |
+| Lookup Type           | The value is 'point' if elections were retrieved by coordinates, 'state' if found by state |
+| Subscriber SMS Opt In | True/False if the user opted into the subscriber's SMS list                                |
+| source                | The ?source= query param                                                                   |
+| utm_source            | The ?utm_source= query param                                                               |
+| utm_medium            | The ?utm_medium= query param                                                               |
+| utm_campaign          | The ?utm_campaign= query param                                                             |
+| utm_content           | The ?utm_content= query param                                                              |
+| utm_term              | The ?utm_term= query param                                                                 |
+| Embed URL             | For submissions done inside an embed, the URL of the page where the tool was embedded      |
+| Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.            |
+| Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                         |
+
+## FutureVoter tool export format
 
 | Column Title                | Description                                                                                                                                                                                                                                    |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -89,7 +114,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Referring Tool              | For users who were linked to the FutureVoter tool by another tool, the name of the tool                                                                                                                                                        |
 | Updated At (UTC)            | The date and time when this action's data was last updated, in UTC                                                                                                                                                                             |
 
-## Locate Tool Export Format
+## Locate tool export format
 
 | Column Title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
@@ -117,7 +142,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                           |
 
 
-## Pledge Tool Export Format
+## Pledge tool export format
 
 | Column Title          | Description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
@@ -147,7 +172,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                    |
 
 
-## Register Tool Export Format
+## Register tool export format
 
 | Column Title                             | Description                                                                                                                                                                                                                                    |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -202,7 +227,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Referring Tool                           | For users who were linked to the register tool by another tool, perhaps after they found out they were not registered via the verify tool, the name of the tool                                                                                |
 | Updated At (UTC)                         | The date and time when this action's data was last updated, in UTC                                                                                                                                                                             |
 
-## Reminders Tool Export Format
+## Reminders tool export format
 
 | Column Title          | Description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
@@ -230,33 +255,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.       |
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                    |
 
-## Calendar Tool Export Format
-
-| Column Title          | Description                                                                                |
-|-----------------------|--------------------------------------------------------------------------------------------|
-| ID                    | The ID we store internally for the verification                                            |
-| Subscriber            | The name of the subscriber                                                                 |
-| Time Started (UTC)    | The time that the first page of the verification was done                                  |
-| Email                 | The email address of the user                                                              |
-| Phone                 | The phone number of the user                                                               |
-| Address 1             | The user's address1                                                                        |
-| Address 2             | The user's address2                                                                        |
-| City                  | The user's city                                                                            |
-| Zipcode               | The user's zipcode                                                                         |
-| State                 | The user's state                                                                           |
-| Lookup Type           | The value is 'point' if elections were retrieved by coordinates, 'state' if found by state |
-| Subscriber SMS Opt In | True/False if the user opted into the subscriber's SMS list                                |
-| source                | The ?source= query param                                                                   |
-| utm_source            | The ?utm_source= query param                                                               |
-| utm_medium            | The ?utm_medium= query param                                                               |
-| utm_campaign          | The ?utm_campaign= query param                                                             |
-| utm_content           | The ?utm_content= query param                                                              |
-| utm_term              | The ?utm_term= query param                                                                 |
-| Embed URL             | For submissions done inside an embed, the URL of the page where the tool was embedded      |
-| Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.            |
-| Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                         |
-
-## Verify Tool Export Format
+## Verify tool export format
 
 | Column Title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
@@ -283,4 +282,4 @@ are still included in reporting to provide access to historic data. Deprecated c
 | utm_term              | The ?utm_term= query param                                                                   |
 | Embed URL             | For submissions done inside an embed, the URL of the page where the tool was embedded        |
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.              |
-| Updated At (UTC)      | The date and time when this actin's data was last updated, in UTC                            |
+| Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                           |
