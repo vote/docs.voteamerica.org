@@ -21,7 +21,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Absentee tool export format
 
-| Column Title                             | Description                                                                                                                                                                                                                                          |
+| Column title                             | Description                                                                                                                                                                                                                                          |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                                       | The ID we store internally for the ballot request                                                                                                                                                                                                    |
 | Subscriber                               | The name of the subscriber                                                                                                                                                                                                                           |
@@ -64,7 +64,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Calendar tool export format
 
-| Column Title          | Description                                                                                |
+| Column title          | Description                                                                                |
 |-----------------------|--------------------------------------------------------------------------------------------|
 | ID                    | The ID we store internally for the verification                                            |
 | Subscriber            | The name of the subscriber                                                                 |
@@ -90,7 +90,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## FutureVoter tool export format
 
-| Column Title                | Description                                                                                                                                                                                                                                    |
+| Column title                | Description                                                                                                                                                                                                                                    |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                          | The ID we store internally for the registration                                                                                                                                                                                                |
 | Subscriber                  | The name of the subscriber                                                                                                                                                                                                                     |
@@ -116,7 +116,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Locate tool export format
 
-| Column Title          | Description                                                                                  |
+| Column title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
 | ID                    | The ID we store internally for the verification                                              |
 | Subscriber            | The name of the subscriber                                                                   |
@@ -144,7 +144,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Pledge tool export format
 
-| Column Title          | Description                                                                           |
+| Column title          | Description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
 | ID                    | The ID we store internally for the verification                                       |
 | Subscriber            | The name of the subscriber                                                            |
@@ -174,7 +174,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Register tool export format
 
-| Column Title                             | Description                                                                                                                                                                                                                                    |
+| Column title                             | Description                                                                                                                                                                                                                                    |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                                       | The ID we store internally for the registration                                                                                                                                                                                                |
 | Subscriber                               | The name of the subscriber                                                                                                                                                                                                                     |
@@ -229,7 +229,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Reminders tool export format
 
-| Column Title          | Description                                                                           |
+| Column title          | Description                                                                           |
 |-----------------------|---------------------------------------------------------------------------------------|
 | ID                    | The ID we store internally for the verification                                       |
 | Subscriber            | The name of the subscriber                                                            |
@@ -257,7 +257,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 
 ## Verify tool export format
 
-| Column Title          | Description                                                                                  |
+| Column title          | Description                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|
 | ID                    | The ID we store internally for the verification                                              |
 | Subscriber            | The name of the subscriber                                                                   |
