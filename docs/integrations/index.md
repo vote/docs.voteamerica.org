@@ -15,12 +15,12 @@ passed to ActionNetwork to add the user to your email list and/or trigger an Act
 # [Hopper](/integrations/hopper/)
 
 VoteAmerica+ is a data source for Community Tech Alliance's Hopper tool-to-tool connector service. 
-Through Hopper, VoteAmerica+ data can be synced to services like BigQuery, Redshift, and VAN. (Additional costs apply.)
+Through Hopper, VoteAmerica+ data can be synced to services like BigQuery, Redshift, and VAN. Additional costs apply.
 
 # [The Movement Cooperative](/integrations/the_movement_cooperative/)
 
 VoteAmerica+ works with The Movement Cooperative to provide easy syncs of your data to the TMC data warehouse.
-(For TMC members only.)
+For TMC members only.
 
 # Other platforms
 
