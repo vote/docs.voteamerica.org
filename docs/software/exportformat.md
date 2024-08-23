@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Export Format
-parent: Software
-nav_order: 5
+title: CSV exports
+parent: Data dictionaries
+grand_parent: Software
+nav_order: 1
 ---
 
 # Export File Format
