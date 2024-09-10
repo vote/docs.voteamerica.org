@@ -68,7 +68,7 @@ The `method` property will provide more details about what took place. Possible 
 * `external` - The user clicked a link to visit a state-hosted online ballot request website (not available in all states).
 * `pdf` - The user received an email with a PDF ballot request form they can print and mail.
 * `ineligible-state` - The user was told that online and PDF options are not available in their state. They were provided details for contacting their local election office (applies to Mississippi).
-* `redirect-to-leo` - The user was told about unusual rules in their state that may require them to contact their local election office, and they clicked the link to look up the contact details for this office.
+* `leo-referral` - The user was told about unusual rules in their state that may require them to contact their local election office, and they clicked the link to look up the contact details for this office.
 * `redirect-to-register`- The user lives in a universal vote-by-mail state (they will automatically receive a ballot in the mail) and were asked whether they needed to update their address permanently or request a one-time ballot. They indicated they needed to update their address permanently and were redirected to the Register tool.
 
 #### action-follow-up event
@@ -360,6 +360,28 @@ Fired when Verify results are delivered to the user (we expect this to immediate
   zipcode: "[ZIP CODE]"    
 }
 ```
+
+#### action-follow-up event
+
+Fired when, after seeing results indicating they might not be registered, the user takes an additional action.
+
+```json-doc
+{
+  event: "action-follow-up",
+  tool: "verify",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]",
+  method: "[METHOD]" // see below for possible options    
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `redirect-to-register` - The user clicked to register to vote and was redirected into the Register flow.
+* `external` - The user clicked to check their registration status directly via a state website. 
+* `retry` - The user clicked to try again with updated information and was redirected back to the Verify intake form.
 
 ### Where To Vote Tool
 
