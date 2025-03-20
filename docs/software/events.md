@@ -193,14 +193,13 @@ Fired when the user has reached an end point in the Permanent Absentee Voter wor
 ```
 
 The `method` property will provide more details about what took place. Possible `method` options include:
-* `external` - The user clicked a link to visit a state-hosted online PAV signup website (not available in all states).
-* `pdf` - The user received an email with a PDF PAV signup form they can print and mail.
+* `external` - The user clicked a link to visit a state-hosted online permanent absentee voter signup website (not available in all states).
+* `pdf` - The user received an email with a PDF permanent absentee voter signup form they can print and mail.
 * `ineligible-state` - The user was told that their state does not offer a permanent absentee voting program.
 
 #### action-follow-up event
 
-Fired when the user returns to the Permanent Absentee Voter flow and takes another action after an `action-finish` has occurred
-(ex: Confirming that they successfully requested a ballot on a state website).
+Fired when the user returns to the Permanent Absentee Voter flow and takes another action after an `action-finish` has occurred.
 
 ```json-doc
 {
@@ -217,8 +216,8 @@ Fired when the user returns to the Permanent Absentee Voter flow and takes anoth
 ```
 
 The `method` property will provide more details about what took place. Possible `method` options include:
-* `external-confirmed` - After clicking on a link to visit a state PAV signup website, the user returned to the flow and confirmed that they successfully submitted their request.
-* `pdf` - After clicking on a link to visit a state PAV signup website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF PAV signup form to print and mail.
+* `external-confirmed` - After clicking on a link to visit a state permanent absentee voter signup website, the user returned to the flow and confirmed that they successfully submitted their request.
+* `pdf` - After clicking on a link to visit a state permanent absentee voter signup website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF permanent absentee voter signup form to print and mail.
 * `redirect-to-absentee` - After being told that their state doesn't offer a permanent absentee voting program, the user clicked on the option to request a one-time ballot and was redirected to the Absentee tool. (In this situation, an `action-start` event will be fired on the Absentee action simultaneously.)
 
 
