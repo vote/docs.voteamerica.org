@@ -298,7 +298,7 @@ The `method` property will provide more details about what took place. Possible 
 * `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
   * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
   * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
-* `redirect-to-future-voter` - The user is too young to register to vote, so they were redirected to the FutureVoter tool. ((In this situation, an `action-start` event will be fired on the FutureVoter action simultaneously.))
+* `redirect-to-future-voter` - The user is too young to register to vote, so they were redirected to the FutureVoter tool. (In this situation, an `action-start` event will be fired on the FutureVoter action simultaneously.)
 
 #### action-follow-up event
 
