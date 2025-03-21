@@ -69,7 +69,7 @@ The `method` property will provide more details about what took place. Possible 
 * `pdf` - The user received an email with a PDF ballot request form they can print and mail.
 * `ineligible-state` - The user was told that online and PDF options are not available in their state. They were provided details for contacting their local election office (applies to Mississippi).
 * `leo-referral` - The user was told about unusual rules in their state that may require them to contact their local election office, and they clicked the link to look up the contact details for this office.
-* `redirect-to-register`- The user lives in a universal vote-by-mail state (they will automatically receive a ballot in the mail) and were asked whether they needed to update their address permanently or request a one-time ballot. They indicated they needed to update their address permanently and were redirected to the Register tool.
+* `redirect-to-register`- The user lives in a universal vote-by-mail state (they will automatically receive a ballot in the mail) and were asked whether they needed to update their address permanently or request a one-time ballot. They indicated they needed to update their address permanently and were redirected to the Register tool. (In this situation, an `action-start` event will be fired on the Register action simultaneously.)
 
 #### action-follow-up event
 
@@ -133,7 +133,7 @@ The `method` property will provide more details about what took place. Possible 
 * `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
   * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
   * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
-* `redirect-to-register` - The user is over 18, so they were redirected to the Register tool.
+* `redirect-to-register` - The user is over 18, so they were redirected to the Register tool. (In this situation, an `action-start` event will be fired on the Register action simultaneously.)
 
 #### action-follow-up event
 
@@ -155,6 +155,70 @@ Fired when the user returns to the flow and takes another action after an `actio
 The `method` property will provide more details about what took place. Possible `method` options include:
 * `external-confirmed` - After clicking on a link to visit a state voter registration website, the user returned to the flow and confirmed that they successfully registered.
 * `pdf` - After clicking on a link to visit a state voter registration website, the user returned and indicated they wanted to register by mail instead. They received an email with a PDF registration form to print and mail.
+
+### Permanent Absentee Voter (PAV) Tool
+
+#### action-start event
+
+Fired when the user submits the Permanent Absentee Voter tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "pav",
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"    
+}
+```
+
+#### action-finish event
+
+Fired when the user has reached an end point in the Permanent Absentee Voter workflow. 
+
+```json-doc
+{
+  event: "action-finish",
+  method: "[METHOD]", // see below for possible options
+  tool: "pav",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external` - The user clicked a link to visit a state-hosted online permanent absentee voter signup website (not available in all states).
+* `pdf` - The user received an email with a PDF permanent absentee voter signup form they can print and mail.
+* `ineligible-state` - The user was told that their state does not offer a permanent absentee voting program.
+
+#### action-follow-up event
+
+Fired when the user returns to the Permanent Absentee Voter flow and takes another action after an `action-finish` has occurred.
+
+```json-doc
+{
+  event: "action-follow-up",
+  method: "[METHOD]", // see below for possible options
+  tool: "pav",
+  url: "[EXTERNAL LINK]", // only included on events where the user was directed to an external site 
+  state: "[STATE]",
+  first_name: "[FIRST NAME]",
+  last_name: "[LAST NAME]",
+  email: "[EMAIL]",
+  zipcode: "[ZIP CODE]"
+}
+```
+
+The `method` property will provide more details about what took place. Possible `method` options include:
+* `external-confirmed` - After clicking on a link to visit a state permanent absentee voter signup website, the user returned to the flow and confirmed that they successfully submitted their request.
+* `pdf` - After clicking on a link to visit a state permanent absentee voter signup website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF permanent absentee voter signup form to print and mail.
+* `redirect-to-absentee` - After being told that their state doesn't offer a permanent absentee voting program, the user clicked on the option to request a one-time ballot and was redirected to the Absentee tool. (In this situation, an `action-start` event will be fired on the Absentee action simultaneously.)
 
 
 ### Pledge Tool
@@ -234,7 +298,7 @@ The `method` property will provide more details about what took place. Possible 
 * `ineligible-state` - The user lives in a state where online and PDF registration are not supported. They received details about what to do next.
   * Ex: North Dakota does not have voter registration, so the user was told that no action is required.
   * Ex: New Hampshire prefers that people register in person, so the user received details about how to register on Election Day or contact their local election office
-* `redirect-to-future-voter` - The user is too young to register to vote, so they were redirected to FutureVoter.com.
+* `redirect-to-future-voter` - The user is too young to register to vote, so they were redirected to the FutureVoter tool. (In this situation, an `action-start` event will be fired on the FutureVoter action simultaneously.)
 
 #### action-follow-up event
 
@@ -379,7 +443,7 @@ Fired when, after seeing results indicating they might not be registered, the us
 ```
 
 The `method` property will provide more details about what took place. Possible `method` options include:
-* `redirect-to-register` - The user clicked to register to vote and was redirected into the Register flow.
+* `redirect-to-register` - The user clicked to register to vote and was redirected into the Register flow. (In this situation, an `action-start` event will be fired on the Register action simultaneously.)
 * `external` - The user clicked to check their registration status directly via a state website. 
 * `retry` - The user clicked to try again with updated information and was redirected back to the Verify intake form.
 
