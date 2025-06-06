@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Facebook (Meta) Pixel
+title: Meta (Facebook) pixel
 parent: Third-party tracking tools
 nav_order: 2
 ---

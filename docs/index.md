@@ -8,12 +8,31 @@ nav_order: 1
 
 VoteAmerica provides a handful of products for other organizations to use:
 
-- [VoteAmerica software:](software/index.md) A complete suite of tools that help citizens check their registration status, register to vote, request an absentee or mail-in ballot, find out where to vote, and contact their local elections office.
-- [Civic Data API](api/index.md): 80+ rigorously fact-checked data points per state, covering everything from voter ID laws to voter registration deadlines.
+## [Embeddable software](embeds)
 
-The software is free to use and embed on your website. If you'd like access to the data that comes in via a dedicated instance of our software, you'll need to sign up for a VoteAmerica+ account. You'll also need to sign up for a VoteAmerica+ account if you'd like to use the Civic Data API.
+We offer a complete suite of embeddable tools that help citizens check their registration status, 
+register to vote, request an absentee or mail-in ballot, find out where to vote, contact their local election office, and more.
 
-- [Click here for the embed code for the free tools](https://secure.voteamerica.org/free-software)
-- Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) for more information on VoteAmerica+ accounts.
+The software is free to use and embed on your website. [Click here for the embed code for the free tools](https://secure.voteamerica.org/free-software)
 
-VoteAmerica is a 501(c)(3) nonprofit organization. VoteAmerica+ accounts are managed via VoteAmerica LLC, which is a wholly owned subsidiary of VoteAmerica. We do this for accounting purposes: everyone's life is just easier if software licensing is handled via a distinct legal entity.
+If you’d like access to the data that comes in via a dedicated 
+instance of our embeddable software, you’ll need to sign up for a VoteAmerica+ account. 
+Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) for more information on VoteAmerica+ accounts.
+
+## [Microsite](microsite)
+
+If you don't wish to embed our tools on your own website, we can host a custom-labeled microsite for you.
+The microsite is a standalone website that includes our full suite of voter tools, branded with your logo and colors.
+VoteAmerica+ account required. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to get started.
+
+## [Civic Data API](api/index.md)
+
+We maintain 80+ rigorously fact-checked data points per state, covering everything from voter ID laws to voter registration deadlines.
+
+API access requires a VoteAmerica+ account. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) for more information.
+
+## About VoteAmerica
+
+VoteAmerica is a 501(c)(3) nonprofit organization. VoteAmerica+ accounts are managed via VoteAmerica LLC, 
+which is a wholly owned subsidiary of VoteAmerica. We do this for accounting purposes: everyone's life is just easier 
+if software licensing is handled via a distinct legal entity.
