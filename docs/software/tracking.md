@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Source tracking
-parent: Software
-nav_order: 5
+parent: Data management
+nav_order: 4
 ---
 
 # Tracking URL arguments

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: The Movement Cooperative
-parent: Integrations
-nav_order: 5
+parent: Data syncs
+nav_order: 3
 ---
 
 # The Movement Cooperative (TMC)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Hopper
-parent: Integrations
-nav_order: 3
+parent: Data syncs
+nav_order: 2
 ---
 
 # Hopper

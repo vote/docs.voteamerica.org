@@ -1,8 +1,8 @@
 ---
 layout: default
 title: JavaScript events
-parent: Software
-nav_order: 4
+parent: Data management
+nav_order: 3
 ---
 
 # JavaScript events

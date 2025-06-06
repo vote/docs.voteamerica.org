@@ -1,8 +1,8 @@
 ---
 layout: default
 title: WordPress
-parent: Integrations
-nav_order: 6
+parent: Website builders
+nav_order: 1
 ---
 
 # Software Embeds and WordPress

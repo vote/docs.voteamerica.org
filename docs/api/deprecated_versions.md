@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deprecated API versions
-parent: API
+parent: Civic Data API
 has_children: true
 nav_order: 2
 ---
