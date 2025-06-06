@@ -1,8 +1,8 @@
 ---
 layout: default
-title: API
+title: Civic Data API
 has_children: true
-nav_order: 3
+nav_order: 6
 ---
 
 # VoteAmerica+ Civic Data API

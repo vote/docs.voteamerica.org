@@ -2,7 +2,6 @@
 layout: default
 title: CSV exports
 parent: Data dictionaries
-grand_parent: Software
 nav_order: 1
 ---
 

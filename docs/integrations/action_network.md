@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ActionNetwork
-parent: Integrations
+parent: Data syncs
 nav_order: 1
 ---
 

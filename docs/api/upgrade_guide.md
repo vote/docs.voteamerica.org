@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upgrading from V1 to V2
-parent: API
+parent: Civic Data API
 nav_order: 1
 ---
 

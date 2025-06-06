@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Google Tag Manager
-parent: Integrations
-nav_order: 2
+parent: Third-party tracking tools
+nav_order: 1
 ---
 
 # Firing events in Google Tag Manager
