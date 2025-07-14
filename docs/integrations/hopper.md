@@ -14,5 +14,5 @@ requires a business agreement with CTA.
 
 ## Enable Hopper integration
 
-If you want to sync your VoteAmerica+ data to CTA PAD / Hopper, email [info@techallies.org](info@techallies.org)
+If you want to sync your VoteAmerica+ data to CTA PAD / Hopper, email [info@techallies.org](mailto:info@techallies.org)
 or submit a request via the [Community Tech Alliance website](https://communitytechalliance.org/get-hopping).
