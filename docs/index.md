@@ -13,7 +13,7 @@ VoteAmerica provides a handful of products for other organizations to use:
 We offer a complete suite of embeddable tools that help citizens check their registration status, 
 register to vote, request an absentee or mail-in ballot, find out where to vote, contact their local election office, and more.
 
-The software is free to use and embed on your website. [Click here for the embed code for the free tools](https://secure.voteamerica.org/free-software)
+The software is free to use and embed on your website. [Submit this form to create your free account](https://secure.voteamerica.org/signup/).
 
 If you’d like access to the data that comes in via a dedicated 
 instance of our embeddable software, you’ll need to sign up for a VoteAmerica+ account. 
