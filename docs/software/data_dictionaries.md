@@ -8,8 +8,8 @@ nav_order: 1
 
 # Data dictionaries
 
-VoteAmerica+ customers may access their tool usage data in different ways, including by exporting a CSV
-from the [VoteAmerica+ customer portal](https://secure.voteamerica.org/export/) or by using one of our third-party
+VoteAmericaPlus customers may access their tool usage data in different ways, including by exporting a CSV
+from the [VoteAmericaPlus customer portal](https://secure.voteamerica.org/export/) or by using one of our third-party
 data syncs. (Find more details about the [Hopper sync](/integrations/hopper/) 
 and [The Movement Cooperative sync](/integrations/the_movement_cooperative/) 
 in our [Integrations](/integrations/) section.)

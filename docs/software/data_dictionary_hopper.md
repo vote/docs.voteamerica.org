@@ -7,20 +7,20 @@ nav_order: 2
 
 # Data dictionary: Hopper sync
 
-This document contains the column names and descriptions for data synced from VoteAmerica+ to 
+This document contains the column names and descriptions for data synced from VoteAmericaPlus to 
 [Hopper by Community Tech Alliance](https://communitytechalliance.org/hopper). 
 
 The Hopper team can work with you to transform this data into a format that suits your destination tool. 
 [Learn more here about the Hopper sync](/integrations/hopper/). 
 
-Data for all VoteAmerica+ tools are pushed to Hopper as part of a unified schema. 
+Data for all VoteAmericaPlus tools are pushed to Hopper as part of a unified schema. 
 Because different tools collect different information, 
 some columns will have NULL values for tools where they do not apply.
-The table below includes a column to indicate which VoteAmerica+ tools collect the data.
+The table below includes a column to indicate which VoteAmericaPlus tools collect the data.
 
 | Column title                 | Description                                                                                                                                                                                                                                                                                                                                                | Tools collecting this data                                                 |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| tool                         | The VoteAmerica+ tool where this action occurred. Options: `absentee`, `futurevoter`, `locate`, `pledge`, `register`, `remind`, `upcoming`, `verify`                                                                                                                                                                                                       | All                                                                        |
+| tool                         | The VoteAmericaPlus tool where this action occurred. Options: `absentee`, `futurevoter`, `locate`, `pledge`, `register`, `remind`, `upcoming`, `verify`                                                                                                                                                                                                    | All                                                                        |
 | subscriber_slug              | An identifier for the subscriber / customer                                                                                                                                                                                                                                                                                                                | All                                                                        |
 | uuid                         | The ID we store internally for the action                                                                                                                                                                                                                                                                                                                  | All                                                                        |
 | subscriber_name              | The name of the subscriber (i.e. your customer name)                                                                                                                                                                                                                                                                                                       | All                                                                        |

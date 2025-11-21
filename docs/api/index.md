@@ -2,10 +2,10 @@
 layout: default
 title: Civic Data API
 has_children: true
-nav_order: 6
+nav_order: 7
 ---
 
-# VoteAmerica+ Civic Data API
+# VoteAmericaPlus Civic Data API
 {: .no_toc }
 
 If you've ever wanted to build your own Election Center of state-specific data, this is the API for you. 
@@ -15,7 +15,7 @@ The data in this API powers the VoteAmerica site and is surfaced throughout the 
 
 [Civic Data API fields and descriptions are here](https://www.voteamerica.org/civic-data-api/).
 
-API keys are only available to VoteAmerica+ customers. 
+API keys are only available to VoteAmericaPlus customers. 
 Please contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to learn more.
 
 1. TOC
@@ -40,9 +40,9 @@ For example, you can try running `curl https://api.voteamerica.org/v2/election/f
 
 ## Authentication
 
-Some endpoints (indicated below) require an API key. If you are already a VoteAmerica+ customer with an active
+Some endpoints (indicated below) require an API key. If you are already a VoteAmericaPlus customer with an active
 subscription to the Civic Data API, you can generate an API key 
-[via the VoteAmerica+ Customer Dashboard](https://secure.voteamerica.org/civic-data-api/). 
+[via the VoteAmericaPlus Customer Dashboard](https://secure.voteamerica.org/civic-data-api/). 
 Please contact [sales@voteamerica.com](mailto:sales@voteamerica.com) to learn more.
 
 For endpoints requiring authentication, use basic auth with your API key ID as the username 

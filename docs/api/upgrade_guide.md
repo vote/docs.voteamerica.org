@@ -8,7 +8,7 @@ nav_order: 1
 # Upgrading from V1 to V2 of the Civic Data API
 {: .no_toc }
 
-[Version 2](/api) of the VoteAmerica+ Civic Data API is now available. This guide outlines the changes from 
+[Version 2](/api) of the VoteAmericaPlus Civic Data API is now available. This guide outlines the changes from 
 [Version 1](/api/v1) and their rationale. 
 
 1. TOC
@@ -62,7 +62,7 @@ will have a property `multiselect_value` that is a list of the options applicabl
 {: .highlight}
 [See below](#breaking-changes) for information on breaking changes resulting from the new naming conventions.
 
-Version 1 of the VoteAmerica+ Civic Data API grew over time, and some inconsistencies crept in. With the release 
+Version 1 of the VoteAmericaPlus Civic Data API grew over time, and some inconsistencies crept in. With the release 
 of V2, we've taking the opportunity to introduce some more consistent naming conventions for our 
 field slugs. For example:
 
