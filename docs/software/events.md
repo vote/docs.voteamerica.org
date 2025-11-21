@@ -8,7 +8,7 @@ nav_order: 3
 # JavaScript events
 {: .no_toc }
 
-VoteAmerica+ uses JavaScript event tracking, and we pass these events up to the parent window of embeds.
+VoteAmericaPlus uses JavaScript event tracking, and we pass these events up to the parent window of embeds.
 
 These events can be consumed by the parent window with a bit of JavaScript. These events have a type of `VoteAmericaEvent` and can be listened for using the following JavaScript snippet.
 
@@ -18,10 +18,10 @@ window.addEventListener('VoteAmericaEvent', function(evt) {
 });
 ```
 
-## VoteAmerica+ Events
+## VoteAmericaPlus Events
 {: .no_toc }
 
-Here's a list of events provided by VoteAmerica+ tools and their detailed data. You can find this data by accessing the `detail.data` property within the event.
+Here's a list of events provided by VoteAmericaPlus tools and their detailed data. You can find this data by accessing the `detail.data` property within the event.
 
 Some events have variable parameters, such as a state or url. Those variable parameters are denoted with square brackets, such as `[STATE]`.
 

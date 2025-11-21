@@ -8,14 +8,14 @@ nav_order: 3
 # Data dictionary: The Movement Cooperative sync
 {: .no_toc }
 
-This document contains the column names and descriptions for data synced from VoteAmerica+ to TMC's data warehouse 
+This document contains the column names and descriptions for data synced from VoteAmericaPlus to TMC's data warehouse 
 via the [TMC sync](/integrations/the_movement_cooperative/).
 
 Note: Some columns have been deprecated and the data are no longer collected by VoteAmerica tools. 
 These columns are still included in syncs to provide access to historic data. 
 Deprecated columns are marked below with `(DEPRECATED)`.
 
-The sync is available for these VoteAmerica+ tools:
+The sync is available for these VoteAmericaPlus tools:
 
 1. TOC
 {:toc}

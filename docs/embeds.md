@@ -6,7 +6,7 @@ nav_order: 3
 
 # Embedded software
 
-VoteAmerica+ software can be embedded in other websites with a short snippet of code.
+VoteAmericaPlus software can be embedded in other websites with a short snippet of code.
 The software has minimal branding, and the fonts and color scheme should work with any website design.
 
 ## Getting started

@@ -7,11 +7,11 @@ nav_order: 3
 
 # EveryAction
 
-When a user makes use of a VoteAmerica+ software embed, we collect their contact information.  This can be
+When a user makes use of a VoteAmericaPlus software embed, we collect their contact information. This can be
 passed to [EveryAction](https://learn.bonterratech.com/everyaction.html) to add the person to your lists and campaigns.
 You can also:
-* specify an activist code that should be applied to users pushed by VoteAmerica+ tools.
-* arrange for VoteAmerica+ UTM parameters to populate custom fields you create in EveryAction.
+* specify an activist code that should be applied to users pushed by VoteAmericaPlus tools.
+* arrange for VoteAmericaPlus UTM parameters to populate custom fields you create in EveryAction.
 
 ## Enabling
 
