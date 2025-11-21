@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Microsite
-nav_order: 3
+nav_order: 4
 ---
 
 # Microsite
@@ -9,6 +9,10 @@ nav_order: 3
 If you don't wish to embed our tools on your own website, VoteAmerica can host a custom-labeled microsite for you.
 The microsite is a standalone website that includes our full suite of voter tools, branded with your logo and colors.
 You can see an example of a microsite at [demomicrosite.voteamerica.org](https://demomicrosite.voteamerica.org/).
+
+## Getting started
+
+Microsites are a paid add-on. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to learn more.
 
 ## Customization options
 
@@ -28,5 +32,3 @@ You can customize the following elements to match your brand:
 | Voter tool button background color (hover state)   | The color of buttons within VoteAmerica tools when a user is hovering over them.                                                  | You provide a [hex color code](https://htmlcolorcodes.com/). We recommend a slightly darker version of your default-state button background color.                                                                                                                     |
 | Voter tool button text color                       | The color of the text on buttons within VoteAmerica tools.                                                                        | You provide a [hex color code](https://htmlcolorcodes.com/). For accessibility reasons, we recommend [at least 4.5:1 contrast](https://webaim.org/resources/contrastchecker/) with the default-state button background color.                                          |
 | Voter tool link color                              | The color of links within VoteAmerica tools, such as the voter registration tool.                                                 | You provide a [hex color code](https://htmlcolorcodes.com/). For accessibility reasons, we recommend [at least 4.5:1 contrast](https://webaim.org/resources/contrastchecker/) with white (`#FFFFFF`).                                                                  |
-
-A VoteAmerica+ account is required to launch a microsite. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to get started.
