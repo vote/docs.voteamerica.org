@@ -2,13 +2,13 @@
 layout: default
 title: EveryAction
 parent: Data syncs
-nav_order: 3
+nav_order: 4
 ---
 
 # EveryAction
 
-When a user makes use of a VoteAmericaPlus software embed, we collect their contact information. This can be
-passed to [EveryAction](https://learn.bonterratech.com/everyaction.html) to add the person to your lists and campaigns.
+When a user submits a form on your instance of the VoteAmericaPlus tools, we collect their contact information. 
+This can be passed to [EveryAction](https://learn.bonterratech.com/everyaction.html) to add the person to your lists and campaigns.
 You can also:
 * specify an activist code that should be applied to users pushed by VoteAmericaPlus tools.
 * arrange for VoteAmericaPlus UTM parameters to populate custom fields you create in EveryAction.

@@ -1,19 +1,22 @@
 ---
 layout: default
-title: ActionNetwork
+title: Action Network
 parent: Data syncs
 nav_order: 1
 ---
 
-# ActionNetwork
+# Action Network
 
-When a user makes use of a VoteAmericaPlus software embed, we collect their contact information.  This can be
-passed to [ActionNetwork](https://actionnetwork.org) to add the user to your email list and/or trigger an Action to inform targeting or ladder conditions.
+When a user submits a form on your instance of the VoteAmericaPlus tools, we collect their contact information.  This can be
+passed to [Action Network](https://actionnetwork.org) to add the user to your email list and/or trigger an Action to inform targeting or ladder conditions.
 
 ## Enabling
 
-Enable the **Enable ActionNetwork Sync** checkbox under **Third Party Integrations** on the
-**Tools > Settings** page.  You will need to enter the API Key provided by ActionNetwork.
+1. Set up your Action Network account.
+2. Generate an API from the API & Sync page in Action Network. [Learn more in the Action Network docs](https://actionnetwork.org/docs/).
+Be sure to copy the secret API key, as you will need it to complete the process.
+3. In the VoteAmericaPlus dashboard, navigate to the [Company Settings](https://secure.voteamerica.org/settings/) page and scroll to "Third-party integrations".
+4. Check the box "Enable Action Network Sync", then paste your API key into the provided field. Click "Save".
 
 ## Actions
 
