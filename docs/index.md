@@ -12,7 +12,7 @@ Our software is free for anyone to use. By upgrading to a paid account, you can 
 including [exports of the data](/software/exportformat/) collected via your instance of the software, 
 [integrations](/integrations/) with other tools, and more.
 Learn more about best practices and the differences between free and paid accounts on our 
-[FAQ page](https://voteamerica-plus.helpscoutdocs.com/article/45-faq).
+[FAQ page](https://support.voteamericaplus.org/article/45-faq).
 
 ## Getting started
 
