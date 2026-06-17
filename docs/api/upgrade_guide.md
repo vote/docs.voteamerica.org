@@ -62,8 +62,8 @@ will have a property `multiselect_value` that is a list of the options applicabl
 {: .highlight}
 [See below](#breaking-changes) for information on breaking changes resulting from the new naming conventions.
 
-Version 1 of the VoteAmerica Plus Civic Data API grew over time, and some inconsistencies crept in. With the release 
-of V2, we've taking the opportunity to introduce some more consistent naming conventions for our 
+Version 1 of the VoteAmerica Plus Civic Data API grew over time, and some inconsistencies crept in. With the release
+of V2, we've taken the opportunity to introduce some more consistent naming conventions for our
 field slugs. For example:
 
 * We are more consistently using the terms `absentee` and `vote-by-mail` in line with 

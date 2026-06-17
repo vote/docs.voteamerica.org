@@ -20,9 +20,8 @@ Be sure to copy the secret API key, as you will need it to complete the process.
 
 ## Actions
 
-Each VoteAmerica Plus tool will get a new Action, like `VoteAmerica
-Register` or `VoteAmerica Absentee`.  Each user of the tool will be
-added to your list (if they aren't already a member or haven't already
+Each VoteAmerica Plus tool will get a new Action, like `VoteAmerica Register` or `VoteAmerica Absentee`.
+Each user of the tool will be added to your list (if they aren't already a member or haven't already
 opted-out), and then associated with the Action.
 
 The Action will also have the following referrer_data:
