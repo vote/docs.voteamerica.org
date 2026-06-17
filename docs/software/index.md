@@ -5,7 +5,7 @@ nav_order: 5
 has_children: true
 ---
 
-# VoteAmericaPlus data access
+# VoteAmerica Plus data access
 
-If you have a VoteAmericaPlus account, you can access the data collected via your instance of our voter tools.
-See below for more details about the data available from VoteAmericaPlus software.
+If you have a VoteAmerica Plus account, you can access the data collected via your instance of our voter tools.
+See below for more details about the data available from VoteAmerica Plus software.

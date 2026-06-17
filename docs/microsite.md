@@ -12,7 +12,7 @@ You can see an example of a microsite at [demomicrosite.voteamerica.org](https:/
 
 ## Getting started
 
-Microsites are a paid add-on. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to learn more.
+Microsites are a paid add-on. Contact [sales@voteamericaplus.org](mailto:sales@voteamericaplus.org) to learn more.
 
 ## Customization options
 
@@ -20,7 +20,7 @@ You can customize the following elements to match your brand:
 
 | Element                           | Description                                                                                                                       | Specifications                                                                                                                                                                                                                                                         |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Subdomain                         | Part of the web address where your microsite will appear (Ex: `your-subdomain.voteamerica.org`)                                   | Must consist of letters, numbers, or hyphens only. 63 characters max (shorter recommended). Must not already be claimed by another VoteAmericaPlus customer (we will contact you if there is a conflict).                                                              |
+| Subdomain                         | Part of the web address where your microsite will appear (Ex: `your-subdomain.voteamerica.org`)                                   | Must consist of letters, numbers, or hyphens only. 63 characters max (shorter recommended). Must not already be claimed by another VoteAmerica Plus customer (we will contact you if there is a conflict).                                                             |
 | Logo                              | A logo image displayed in the header.                                                                                             | PNG or JPG of no more than 2MB. Will appear on a white background. Horizontal orientation recommended.                                                                                                                                                                 |
 | Header tagline                    | A short line of larger text displayed in the header below the logo.                                                               | 64 characters max (shorter recommended).                                                                                                                                                                                                                               |
 | Header text                       | A longer blurb of text displayed in the header below the tagline.                                                                 |                                                                                                                                                                                                                                                                        |
