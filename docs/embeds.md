@@ -6,12 +6,12 @@ nav_order: 3
 
 # Embedded software
 
-VoteAmericaPlus software can be embedded in other websites with a short snippet of code.
+VoteAmerica Plus software can be embedded in other websites with a short snippet of code.
 The software has minimal branding, and the fonts and color scheme should work with any website design.
 
 ## Getting started
 
-To start using embedded voter tools, sign up for a free VoteAmericaPlus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
+To start using embedded voter tools, sign up for a free VoteAmerica Plus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
 
 Once you're logged in to your account, you can find your custom embed codes at [secure.voteamericaplus.org/embed/](https://secure.voteamericaplus.org/embed/).
 You'll also be able to see counts of the actions driven by your embeds in your dashboard.

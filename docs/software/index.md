@@ -8,4 +8,4 @@ has_children: true
 # VoteAmerica Plus data access
 
 If you have a VoteAmerica Plus account, you can access the data collected via your instance of our voter tools.
-See below for more details about the data available from VoteAmericaPlus software.
+See below for more details about the data available from VoteAmerica Plus software.

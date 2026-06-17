@@ -11,7 +11,7 @@ right away, and activity driven through these links is automatically attributed 
 
 ## Getting started
 
-To start using easy links, sign up for a free VoteAmericaPlus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
+To start using easy links, sign up for a free VoteAmerica Plus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
 
 Once you're logged in to your account, you can find your custom links at [secure.voteamericaplus.org/easy-links/](https://secure.voteamericaplus.org/easy-links/).
 You'll also be able to see counts of the actions driven by your links in your dashboard.
