@@ -16,8 +16,8 @@ Learn more about best practices and the differences between free and paid accoun
 
 ## Getting started
 
-To get started, sign up for a free VoteAmericaPlus account at [secure.voteamerica.org/signup/](https://secure.voteamerica.org/signup/).
-From there, you can access your custom easy links and embed codes right away and [upgrade](https://secure.voteamerica.org/upgrade/) to unlock paid features.
+To get started, sign up for a free VoteAmericaPlus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
+From there, you can access your custom easy links and embed codes right away and [upgrade](https://secure.voteamericaplus.org/upgrade/) to unlock paid features.
 
 ## Voter tool implementation options
 
@@ -45,7 +45,7 @@ our full suite of voter tools, branded with your logo and colors.
 ## [Civic Data API](api/index.md)
 
 We maintain 80+ rigorously fact-checked data points per state, covering everything from voter ID laws to voter registration deadlines.
-You can access our data via a paid API. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) for more information.
+You can access our data via a paid API. Contact [sales@voteamericaplus.org](mailto:sales@voteamericaplus.org) for more information.
 
 ## About VoteAmerica
 

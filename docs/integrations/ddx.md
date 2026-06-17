@@ -22,7 +22,7 @@ Contact DDx at [api@demexchange.com](mailto:api@demexchange.com) to learn about 
 2. Generate a DDx API key that authorizes VoteAmericaPlus to push interactions to your DDx account. 
 When prompted to select a data source, choose `VoteAmerica-to-MIG`. [Learn more in the DDx docs](https://apidocs.demexchange.com/docs/detailed-guide-api-key-creation).
 Be sure to copy the secret API key, as you will need it to complete the process.
-3. In the VoteAmericaPlus dashboard, navigate to the [Company Settings](https://secure.voteamerica.org/settings/) page and scroll to "Third-party integrations".
+3. In the VoteAmericaPlus dashboard, navigate to the [Company Settings](https://secure.voteamericaplus.org/settings/) page and scroll to "Third-party integrations".
 4. Check the box "Enable DDx Sync", then paste your DDx API key and organization name into the provided fields. Click "Save".
 
 ## Interactions

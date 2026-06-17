@@ -11,12 +11,12 @@ right away, and activity driven through these links is automatically attributed 
 
 ## Getting started
 
-To start using easy links, sign up for a free VoteAmericaPlus account at [secure.voteamerica.org/signup/](https://secure.voteamerica.org/signup/).
+To start using easy links, sign up for a free VoteAmericaPlus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
 
-Once you're logged in to your account, you can find your custom links at [secure.voteamerica.org/easy_links/](https://secure.voteamerica.org/easy-links/).
+Once you're logged in to your account, you can find your custom links at [secure.voteamericaplus.org/easy_links/](https://secure.voteamericaplus.org/easy-links/).
 You'll also be able to see counts of the actions driven by your links in your dashboard.
 
-If you'd like access to the information gathered via your links, you'll need to [upgrade to a paid account](https://secure.voteamerica.org/upgrade/).
+If you'd like access to the information gathered via your links, you'll need to [upgrade to a paid account](https://secure.voteamericaplus.org/upgrade/).
 
 ## Customization options
 
@@ -29,4 +29,4 @@ You can customize the following options for your easy links:
 - **Logo** - By default, your easy link pages will feature your organization name at the top of the page. You can upload a logo 
   to be displayed instead. Your logo file must be a PNG or JPG image of no more than 5MB in size.
 
-Apply these customizations from the [company settings page](https://secure.voteamerica.org/settings/).
+Apply these customizations from the [company settings page](https://secure.voteamericaplus.org/settings/).

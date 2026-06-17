@@ -15,7 +15,7 @@ passed to [Action Network](https://actionnetwork.org) to add the user to your em
 1. Set up your Action Network account.
 2. Generate an API from the API & Sync page in Action Network. [Learn more in the Action Network docs](https://actionnetwork.org/docs/).
 Be sure to copy the secret API key, as you will need it to complete the process.
-3. In the VoteAmericaPlus dashboard, navigate to the [Company Settings](https://secure.voteamerica.org/settings/) page and scroll to "Third-party integrations".
+3. In the VoteAmericaPlus dashboard, navigate to the [Company Settings](https://secure.voteamericaplus.org/settings/) page and scroll to "Third-party integrations".
 4. Check the box "Enable Action Network Sync", then paste your API key into the provided field. Click "Save".
 
 ## Actions

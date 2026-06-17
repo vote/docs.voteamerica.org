@@ -12,7 +12,7 @@ You can see an example of a microsite at [demomicrosite.voteamerica.org](https:/
 
 ## Getting started
 
-Microsites are a paid add-on. Contact [sales@voteamerica.org](mailto:sales@voteamerica.org) to learn more.
+Microsites are a paid add-on. Contact [sales@voteamericaplus.org](mailto:sales@voteamericaplus.org) to learn more.
 
 ## Customization options
 

@@ -11,12 +11,12 @@ The software has minimal branding, and the fonts and color scheme should work wi
 
 ## Getting started
 
-To start using embedded voter tools, sign up for a free VoteAmericaPlus account at [secure.voteamerica.org/signup/](https://secure.voteamerica.org/signup/).
+To start using embedded voter tools, sign up for a free VoteAmericaPlus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
 
-Once you're logged in to your account, you can find your custom embed codes at [secure.voteamerica.org/embed/](https://secure.voteamerica.org/embed/).
+Once you're logged in to your account, you can find your custom embed codes at [secure.voteamericaplus.org/embed/](https://secure.voteamericaplus.org/embed/).
 You'll also be able to see counts of the actions driven by your embeds in your dashboard.
 
-If you'd like access to the information gathered via your embeds, you'll need to [upgrade to a paid account](https://secure.voteamerica.org/upgrade/).
+If you'd like access to the information gathered via your embeds, you'll need to [upgrade to a paid account](https://secure.voteamericaplus.org/upgrade/).
 
 ## Technical details
 

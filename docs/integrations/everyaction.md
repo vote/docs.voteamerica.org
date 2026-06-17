@@ -16,4 +16,4 @@ You can also:
 ## Enabling
 
 Enabling a sync from VoteAmerica to your EveryAction instance requires an approval from the EveryAction team.
-Contact us at [sales@voteamerica.org](mailto:sales@voteamerica.org) to begin this process.
+Contact us at [sales@voteamericaplus.org](mailto:sales@voteamericaplus.org) to begin this process.
