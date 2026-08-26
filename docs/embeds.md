@@ -26,3 +26,8 @@ This will not block rendering of the parent page, and the iframe will check the 
 
 If you have a paid account, the tool will pass JavaScript events to the parent window when users complete actions. 
 Find more details on the [JavaScript Events page](/software/events/). 
+
+## Customization 
+
+Visit [secure.voteamerica.org/customization/](https://secure.voteamerica.org/customization/) 
+to apply your brand colors to your embedded voter tools.

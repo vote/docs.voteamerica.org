@@ -9,7 +9,7 @@ nav_order: 4
 
 All standard UTM parameters, as well as `source`, can be used to track campaign performance, differentiate traffic from different sources, and determine conversion events.
 
-These can be set in the URL of the page where the tool is embedded, or passed in as a data-attribute on the embed itself.
+These can be set in the URL of the microsite page or the page where the tool is embedded, or passed in as a data-attribute on the embed itself.
 
 | Parameter    | Purpose                                                                                                              | Example                                  |
 |--------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------|
