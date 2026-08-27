@@ -17,7 +17,7 @@ Learn more about best practices and the differences between free and paid accoun
 ## Getting started
 
 To get started, sign up for a free VoteAmerica Plus account at [secure.voteamericaplus.org/signup/](https://secure.voteamericaplus.org/signup/).
-From there, you can access your custom microsite and embed codes right away and [upgrade](https://secure.voteamericaplus.org/upgrade/) to unlock paid features.
+From there, you can access your custom microsite and embed codes and [upgrade](https://secure.voteamericaplus.org/upgrade/) to unlock paid features.
 
 ## Voter tool implementation options
 
