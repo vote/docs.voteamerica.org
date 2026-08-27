@@ -29,5 +29,5 @@ Find more details on the [JavaScript Events page](/software/events/).
 
 ## Customization 
 
-Visit [secure.voteamerica.org/customization/](https://secure.voteamerica.org/customization/) 
+Visit [secure.voteamericaplus.org/customization/](https://secure.voteamericaplus.org/customization/)
 to apply your brand colors to your embedded voter tools.

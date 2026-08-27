@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Microsite and easy links
-nav_order: 3
+nav_order: 2
 ---
 
 # Microsite and easy links
@@ -27,5 +27,5 @@ Find your links at [secure.voteamericaplus.org/microsite/](https://secure.voteam
 
 ## Customization 
 
-Visit [secure.voteamerica.org/customization/](https://secure.voteamerica.org/customization/) 
+Visit [secure.voteamericaplus.org/customization/](https://secure.voteamericaplus.org/customization/)
 to upload your logo and favicon, select your colors, and add custom messaging to your microsite.
