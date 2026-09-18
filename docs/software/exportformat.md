@@ -74,8 +74,8 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Home State                               | The user's home state                                                                                                    |
 | School State                             | The user's school state                                                                                                  |
 | Chosen Address Type                      | Whether the user opted to vote at their "home" or "school" address (defaults to "home" if the user only has one address) |
-| Is Dual Address                          | If the user has separate home and school addresses                                                                       |                                                                                                                                                            |
-| Institution Name                         | The name of the user's college or university                                                                             |                                                                                                                                                                                                                     |
+| Is Dual Address                          | If the user has separate home and school addresses                                                                       |
+| Institution Name                         | The name of the user's college or university                                                                             |
 | Election Date                            | The date of the election covered by the guide (may be NULL if a generic non-dated guide was shown)                       |
 | Subscriber SMS Opt In                    | True/False if the user has selected to opt-in to the subscriber's SMS list                                               |
 | source                                   | The ?source= query param                                                                                                 |
@@ -86,7 +86,7 @@ are still included in reporting to provide access to historic data. Deprecated c
 | utm_term                                 | The ?utm_term= query param                                                                                               |
 | Embed URL                                | For submissions done inside an embed, the URL of the page where the tool was embedded                                    |
 | Session ID                               | The ID of a user's session. For tracking users across multiple tools or visits.                                          |
-| Referring Tool                           | For users who were linked to the absentee tool by another tool, the name of the tool                                     |
+| Referring Tool                           | For users who were linked to the college tool by another tool, the name of the tool                                     |
 | Updated At (UTC)                         | The date and time when this action's data was last updated, in UTC                                                       |
 
 
