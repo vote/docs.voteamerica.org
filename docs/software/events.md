@@ -95,6 +95,37 @@ The `method` property will provide more details about what took place. Possible 
 * `pdf` - After clicking on a link to visit a state ballot request website, the user returned and indicated they wanted to submit their request by mail instead. They received an email with a PDF ballot request form to print and mail.
 
 
+### College Tool
+
+#### action-start event
+
+Fired when the user submits the College tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "college"
+}
+```
+
+#### action-finish event
+
+Fired when the user reaches their customized college voting guide.
+
+```json-doc
+{
+  event: "action-finish",
+  tool: "college",
+  state: "[STATE]",
+  method: "[METHOD]", // see below for possible options
+}
+```
+
+The `method` property will provide more details about what took place. Possible method options include:
+
+* `home` - The user requested a guide for their home address. (This is also the default if their home and school addresses are the same.)
+* `school` - The user requested a guide for their school address.
+
 ### FutureVoter Tool
 
 #### action-start event
@@ -252,6 +283,33 @@ Fired when the user receives confirmation that they have pledged to vote and sub
   last_name: "[LAST NAME]",
   email: "[EMAIL]",
   zipcode: "[ZIP CODE]"    
+}
+```
+
+### Pollworker Tool
+
+#### action-start event
+
+Fired when the user submits the Pollworker tool intake form.
+
+```json-doc
+{
+  event: "action-start",
+  tool: "pollworker",
+  state: "[STATE]"
+}
+```
+
+#### action-finish event
+
+Fired when the data are submitted to Power the Polls. We expect this to immediately follow form submission. 
+It does not guarantee Power the Polls has received the data.
+
+```json-doc
+{
+  event: "action-finish",
+  tool: "pollworker",
+  state: "[STATE]"
 }
 ```
 
