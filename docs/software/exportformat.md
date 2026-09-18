@@ -61,6 +61,35 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Referring Tool                           | For users who were linked to the absentee tool by another tool, the name of the tool                                                                                                                                                                 |
 | Updated At (UTC)                         | The date and time when this action's data was last updated, in UTC                                                                                                                                                                                   |
 
+## College tool export format
+
+| Column title                             | Description                                                                                                              |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| ID                                       | The ID we store internally for the college guide request                                                                 |
+| Subscriber                               | The name of the subscriber                                                                                               |
+| Time Started (UTC)                       | The date and time that the first page of the college guide request was submitted, in UTC                                 |
+| Email                                    | The user's email address                                                                                                 |
+| Phone                                    | The user's phone number                                                                                                  |
+| State                                    | The state the user requested the guide for (may be either home or school state)                                          |
+| Home State                               | The user's home state                                                                                                    |
+| School State                             | The user's school state                                                                                                  |
+| Chosen Address Type                      | Whether the user opted to vote at their "home" or "school" address (defaults to "home" if the user only has one address) |
+| Is Dual Address                          | If the user has separate home and school addresses                                                                       |                                                                                                                                                            |
+| Institution Name                         | The name of the user's college or university                                                                             |                                                                                                                                                                                                                     |
+| Election Date                            | The date of the election covered by the guide (may be NULL if a generic non-dated guide was shown)                       |
+| Subscriber SMS Opt In                    | True/False if the user has selected to opt-in to the subscriber's SMS list                                               |
+| source                                   | The ?source= query param                                                                                                 |
+| utm_source                               | The ?utm_source= query param                                                                                             |
+| utm_medium                               | The ?utm_medium= query param                                                                                             |
+| utm_campaign                             | The ?utm_campaign= query param                                                                                           |
+| utm_content                              | The ?utm_content= query param                                                                                            |
+| utm_term                                 | The ?utm_term= query param                                                                                               |
+| Embed URL                                | For submissions done inside an embed, the URL of the page where the tool was embedded                                    |
+| Session ID                               | The ID of a user's session. For tracking users across multiple tools or visits.                                          |
+| Referring Tool                           | For users who were linked to the absentee tool by another tool, the name of the tool                                     |
+| Updated At (UTC)                         | The date and time when this action's data was last updated, in UTC                                                       |
+
+
 ## Calendar tool export format
 
 | Column title          | Description                                                                                |
@@ -202,6 +231,27 @@ are still included in reporting to provide access to historic data. Deprecated c
 | Embed URL             | For submissions done inside an embed, the URL of the page where the tool was embedded |
 | Session ID            | The ID of a user's session. For tracking users across multiple tools or visits.       |
 | Updated At (UTC)      | The date and time when this action's data was last updated, in UTC                    |
+
+
+## Pollworker tool export format
+
+| Column title       | Description                                                                           |
+|--------------------|---------------------------------------------------------------------------------------|
+| ID                 | The ID we store internally for the pollworker signup                                  |
+| Subscriber         | The name of the subscriber                                                            |
+| Time Started (UTC) | The date and time that the first page of the pollworker signup was submitted, in UTC  |
+| Zipcode            | The user's zipcode                                                                    |
+| State              | The user's state                                                                      |
+| source             | The ?source= query param                                                              |
+| utm_source         | The ?utm_source= query param                                                          |
+| utm_medium         | The ?utm_medium= query param                                                          |
+| utm_campaign       | The ?utm_campaign= query param                                                        |
+| utm_content        | The ?utm_content= query param                                                         |
+| utm_term           | The ?utm_term= query param                                                            |
+| Embed URL          | For submissions done inside an embed, the URL of the page where the tool was embedded |
+| Session ID         | The ID of a user's session. For tracking users across multiple tools or visits.       |
+| Referring Tool     | For users who were linked to the absentee tool by another tool, the name of the tool  |
+| Updated At (UTC)   | The date and time when this action's data was last updated, in UTC                    |
 
 
 ## Register tool export format
