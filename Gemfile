@@ -13,14 +13,25 @@ source "https://rubygems.org"
 
 gem "just-the-docs"
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+# The site is built by GitHub Pages, which uses Jekyll 3.10. We don't use the
+# github-pages gem here because it pins jekyll-remote-theme 0.4.3, which caps
+# rubyzip below the version that fixes GHSA-47m2-wp7j-p9vc.
+gem "jekyll", "~> 3.10.0"
+gem "kramdown-parser-gfm"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-remote-theme'
+  gem "jekyll-remote-theme", ">= 0.5.2"
+  gem "jekyll-seo-tag"
+  # Enabled by default on GitHub Pages
+  gem "jekyll-default-layout"
+  gem "jekyll-optional-front-matter"
+  gem "jekyll-readme-index"
+  gem "jekyll-relative-links"
+  gem "jekyll-titles-from-headings"
 end
+
+gem "rubyzip", ">= 3.4.0"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -34,3 +45,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.8"
+
+# No longer default gems in newer Rubies, but required by Jekyll 3.10
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
